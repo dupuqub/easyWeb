@@ -29,22 +29,17 @@
   /*..................................................................................................................*/
   /* CLASS */
   .btnMenu {
-    height: 80px;
     width: 50%;
+    height: 80px;
+    background: #E32651;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     float: left;
-  }
-  .btnMenu:hover {
-    background: #E32651;
-    color: white;
     border-radius: 10px;
-  }
-  .btnMenu:active {
-    background: #E32651;
-    color: white;
-    border-radius: 10px;
+    border: 5px solid white;
+    box-sizing: border-box;
   }
   .menuSpace {
     display: none;
