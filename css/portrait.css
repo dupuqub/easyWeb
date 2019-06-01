@@ -41,6 +41,11 @@
     color: white;
     border-radius: 10px;
   }
+  .btnMenu:active {
+    background: #E32651;
+    color: white;
+    border-radius: 10px;
+  }
   .menuSpace {
     display: none;
   }
