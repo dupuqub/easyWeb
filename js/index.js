@@ -80,4 +80,4 @@ const loop = () => {
   window.requestAnimationFrame(loop)
 }
 
-loop()
+setTimeout(() => loop(), 1000)
