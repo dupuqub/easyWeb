@@ -63,5 +63,8 @@
     opacity: 1;
     background-size: 100%;
   }
-  .txtCrslFrm {font-size: 50px}
+  .txtCrslFrm {
+    font-size: 50px;
+    height: 100%;
+  }
 }

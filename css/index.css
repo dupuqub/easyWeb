@@ -45,8 +45,13 @@ html, body {
   cursor: pointer;
   transition: all 0.2s;
 }
-.imgCrslBox {justify-content: center}
-.txtCrslBox {justify-content: flex-end}
+.imgCrslBox {
+  justify-content: center;
+}
+.txtCrslBox {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 .imgCrslBox, .txtCrslBox {
   min-width: 80%;
   height: 100%;
@@ -61,7 +66,6 @@ html, body {
 }
 .txtCrslFrm {
   width: 40%;
-  height: 100%;
   background: #E32651;
   color: white;
   font-weight: bold;
