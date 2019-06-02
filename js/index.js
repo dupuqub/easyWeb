@@ -13,6 +13,11 @@ let textNext = 0
 let counter = 180
 
 //......................................................................................................................
+
+const start = () => {
+  setTimeout(() => loop(), 1000)
+}
+
 const loop = () => {
   if(counter === 180) moveImageCarousel()
   else if(counter === 160) moveTextCarousel()
@@ -23,4 +28,4 @@ const loop = () => {
   window.requestAnimationFrame(loop)
 }
 
-setTimeout(() => loop(), 1000)
+start()
