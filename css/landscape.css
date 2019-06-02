@@ -62,4 +62,22 @@
     opacity: 1;
     background-size: 100%;
   }
+
+  /*..................................................................................................................*/
+  /* TESTS */
+  #carousel {
+    height: 600px;
+    background: orange;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .imgCarousel {
+    min-width: 80%;
+    height: 100%;
+    transition: all 2s;
+    box-sizing: border-box;
+    border: 10px solid green;
+    font-size: 100px;
+  }
 }
