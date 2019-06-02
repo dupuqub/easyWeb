@@ -82,7 +82,8 @@
     width: 50%;
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
+    margin-right: 30px;
   }
   #signup {
     width: 50%;
