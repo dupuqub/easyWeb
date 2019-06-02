@@ -69,6 +69,121 @@
   }
 
   /*..................................................................................................................*/
+  /* CONTACT */
+  #contact {
+    width: 100%;
+    height: 1200px;
+    background: #FF004A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  #contactBox {
+    width: 500px;
+    height: 800px;
+    background: #FE80A5;
+    border-radius: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  #contactTitleBox {
+    width: 100%;
+    height: 55%;
+  }
+  #contactTitleLeft {
+    width: 100%;
+    height: 180px;
+    background: darkorange;
+    border-radius: 20px 0 0 0;
+    box-sizing: border-box;
+    border-bottom: 5px solid #FF004A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  #contactInfoBox {
+    width: 100%;
+    height: 45%;
+  }
+  #address {
+    margin-left: 20px;
+  }
+  #contactLeft {
+    height: 45%;
+  }
+  #contactRight {
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #contactTitleRight {
+    font-size: 30px;
+    margin: 0 15px 20px 0 ;
+    text-align: right;
+    font-weight: bold;
+  }
+  #contactMessage {
+    height: 140px;
+    word-wrap: all;
+    resize: none;
+    font-family: Helvetica, Verdana, Geneva, sans-serif;
+  }
+  #contactName {
+    border-radius: 20px 0 0 0;
+  }
+  #contactSend {
+    width: 472px;
+    height: 50px;
+    color: #FE80A5;
+    font-size: 20px;
+    font-weight: bold;
+    background: #FFDDEE;
+    margin: 5px 0 0 15px;
+    border-radius: 0 0 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #contactSend:hover {
+    background: white;
+  }
+
+  .contactSide {
+    width: 100%;
+  }
+  .contactInfo {
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .phoneImage {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin: 0 15px 0 10px;
+  }
+  .phoneBox {
+    display: flex;
+  }
+  .contactMinor {
+    height: 15px;
+  }
+  .contactRightBox {
+    margin-left: 15px;
+    width: 447px;
+    border: 2px solid white;
+    margin-bottom: 5px;
+    background: rgba(0,0,0,0);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  /*..................................................................................................................*/
   /* NEWSLETTER */
 
   #newsletter {

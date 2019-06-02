@@ -126,7 +126,6 @@
   }
   #contactMessage {
     height: 100px;
-    vertical-align: top;
     word-wrap: all;
     resize: none;
     font-family: Helvetica, Verdana, Geneva, sans-serif;
@@ -161,7 +160,7 @@
     font-size: 18px;
     margin-left: 20px;
   }
-  .phoneNumber {
+  .phoneImage {
     width: 20px;
     height: 20px;
     background-size: contain;
