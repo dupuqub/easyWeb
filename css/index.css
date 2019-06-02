@@ -73,6 +73,7 @@ html, body {
   height: 100%;
   background-position: center;
   background-size: cover;
+  border-radius: 40px 0 40px 0;
 }
 .txtCrslFrm {
   width: 40%;
