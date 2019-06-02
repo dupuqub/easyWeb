@@ -14,6 +14,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
+    margin-left: 40px;
   }
   #menu {
     width: calc(100% - 450px);
@@ -29,6 +30,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 40px;
   }
 
   /*..................................................................................................................*/
