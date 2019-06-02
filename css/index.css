@@ -22,6 +22,9 @@ html, body {
 #dog {background-image: url("../images/dog.jpg")}
 #signupImage {background-image: url("../images/email.png")}
 
+#phoneIcon {background-image: url("../images/phone.png")}
+#whatsappIcon {background-image: url("../images/whatsapp.png")}
+
 /*....................................................................................................................*/
 /* ID */
 
@@ -82,7 +85,7 @@ html, body {
 }
 .txtCrslFrm {
   width: 40%;
-  background: #E32651;
+  background: #FF004A;
   color: white;
   font-weight: bold;
   display: flex;
