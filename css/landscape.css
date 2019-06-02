@@ -65,8 +65,89 @@
     opacity: 1;
     background-size: 100%;
   }
+
+  /*..................................................................................................................*/
+  /* CAROUSEL */
+
   .txtCrslFrm {
     font-size: 50px;
     height: 100%;
+  }
+
+  /*..................................................................................................................*/
+  /* CONTACT */
+
+  #contact {
+    width: 100%;
+    height: 800px;
+    background: #FF004A;
+  }
+
+  /*..................................................................................................................*/
+  /* NEWSLETTER */
+
+  #newsletter {
+    width: 100%;
+    height: 900px;
+    background: #FF004A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #dog {
+    width: 50%;
+    height: 100%;
+    background-image: url("../images/dog.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #signup {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  #signupTitle {
+    font-size: 60px;
+    font-weight: bold;
+  }
+  #signupSubtitle {
+    font-size: 30px;
+  }
+  #signupEmail {
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 100px;
+    padding: 0 20px 0 20px;
+  }
+  #signupConfirm {
+    width: 500px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    background: darkorange;
+    margin-top: 10px;
+    padding: 0 20px 0 20px;
+  }
+  #signupConfirm:hover {
+    background: orange;
+  }
+  #signupImage {
+    width: 60px;
+    height: 70px;
+    background-image: url("../images/email.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 270px;
   }
 }
