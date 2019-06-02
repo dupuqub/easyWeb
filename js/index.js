@@ -14,8 +14,8 @@ let counter = 180
 
 //......................................................................................................................
 const loop = () => {
-  if(counter === 180) imageCarousel()
-  else if(counter === 160) textCarousel()
+  if(counter === 180) moveImageCarousel()
+  else if(counter === 160) moveTextCarousel()
 
   if(counter < 0) counter = 180
   else counter --

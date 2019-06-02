@@ -1,6 +1,6 @@
 `use strict`
 
-const textCarousel = () => {
+const moveTextCarousel = () => {
   if(textNext > textFrames.length - 2) textNext = 0
   else textNext ++
 
