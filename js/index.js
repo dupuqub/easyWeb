@@ -6,6 +6,8 @@ const getAll = query => document.querySelectorAll(query)
 const arrayer = length => Array.from({length})
 
 //......................................................................................................................
+// Main carousel
+
 const frames = getAll(`.imgCarousel`)
 let next = 0
 
@@ -32,3 +34,35 @@ setInterval(() => {
     frame.style.transform = `translateX(${(-next + mod) * 100}%)`
   })
 }, 3000)
+
+//......................................................................................................................
+// Mini carousel
+
+const miniFrames = getAll(`.imgMiniCarousel`)
+let miniNext = 0
+
+setTimeout(() => {
+  setInterval(() => {
+    if(miniNext > miniFrames.length - 2) miniNext = 0
+    else miniNext ++
+
+    miniFrames.forEach((frame, index) => {
+      if(index < miniNext - 1 && index
+      || miniNext === 2 && !index
+      || !miniNext && index === miniFrames.length - 2
+      || miniNext === 1 && index === miniFrames.length - 1) {
+        frame.style.transition = `all 0s`
+        setTimeout(() => frame.style.transition = `all 2s`, 1000)
+      }
+
+      let mod =
+          !miniNext && index === miniFrames.length - 1
+        ? -miniFrames.length
+        : index < miniNext - 1
+        ? miniFrames.length
+        : 0
+
+      frame.style.transform = `translateX(${(-miniNext + mod) * 100}%)`
+    })
+  }, 3000)
+}, 200)
