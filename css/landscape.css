@@ -97,7 +97,6 @@
   #dog {
     width: 50%;
     height: 100%;
-    background-image: url("../images/dog.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -144,10 +143,14 @@
   #signupImage {
     width: 60px;
     height: 70px;
-    background-image: url("../images/email.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     margin-left: 270px;
   }
+
+  /*..................................................................................................................*/
+  /* FOOTER */
+
+  #footer {height: 100px}
 }
