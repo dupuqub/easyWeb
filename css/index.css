@@ -19,6 +19,8 @@ html, body {
 #imgCrslFrm3 {background-image: url("../images/carousel3.jpg")}
 #imgCrslFrm4 {background-image: url("../images/carousel4.jpg")}
 
+#about {background-image: url("../images/aboutBack.png")}
+
 #accordion {background-image: url("../images/accordionBack.jpg")}
 
 #client {background-image: url("../images/clientBack.jpg")}
@@ -99,6 +101,30 @@ html, body {
   justify-content: center;
   padding: 0 40px 0 40px;
   border-radius: 40px 0 40px 0;
+}
+
+/*....................................................................................................................*/
+/* ABOUT */
+
+#about {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #666;
+}
+#aboutTitle {
+  width: 50%;
+  font-size: calc(1vw + 40px);
+  margin-bottom: 50px;
+}
+#aboutText {
+  width: 50%;
+  font-size: calc(1vw + 20px);
 }
 
 /*....................................................................................................................*/
