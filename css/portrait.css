@@ -171,6 +171,7 @@
   }
   .contactMinor {
     height: 15px;
+    text-align: right;
   }
   .contactRightBox {
     margin-left: 15px;
