@@ -214,7 +214,7 @@ html, body {
   justify-content: center;
   transition: 0.2s all;
   position: absolute;
-  transform: translateY(-8.5vw);
+  transform: translateY(8.5vw);
 }
 
 /*....................................................................................................................*/
