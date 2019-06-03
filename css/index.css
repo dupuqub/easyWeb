@@ -19,11 +19,25 @@ html, body {
 #imgCrslFrm3 {background-image: url("../images/carousel3.jpg")}
 #imgCrslFrm4 {background-image: url("../images/carousel4.jpg")}
 
-#dog {background-image: url("../images/dog.jpg")}
-#signupImage {background-image: url("../images/email.png")}
+#accordion {background-image: url("../images/accordionBack.jpg")}
+
+#client {background-image: url("../images/clientBack.jpg")}
+#client0 {background-image: url("../images/client0.jpg")}
+#client1 {background-image: url("../images/client1.jpg")}
+#client2 {background-image: url("../images/client2.jpg")}
+#client3 {background-image: url("../images/client3.jpg")}
+#client4 {background-image: url("../images/client4.jpg")}
+#client0Logo {background-image: url("../images/client0Logo.png")}
+#client1Logo {background-image: url("../images/client1Logo.png")}
+#client2Logo {background-image: url("../images/client2Logo.png")}
+#client3Logo {background-image: url("../images/client3Logo.png")}
+#client4Logo {background-image: url("../images/client4Logo.png")}
 
 #phoneIcon {background-image: url("../images/phone.png")}
 #whatsappIcon {background-image: url("../images/whatsapp.png")}
+
+#dog {background-image: url("../images/dog.jpg")}
+#signupImage {background-image: url("../images/email.png")}
 
 /*....................................................................................................................*/
 /* ID */
