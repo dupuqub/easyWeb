@@ -124,7 +124,7 @@ html, body {
 }
 #aboutText {
   width: 50%;
-  font-size: calc(1vw + 20px);
+  font-size: calc(1vw + 15px);
 }
 
 /*....................................................................................................................*/
@@ -214,7 +214,7 @@ html, body {
   justify-content: center;
   transition: 0.2s all;
   position: absolute;
-  margin-top: 17vw;
+  transform: translateY(-8.5vw);
 }
 
 /*....................................................................................................................*/
