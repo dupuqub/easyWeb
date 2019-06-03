@@ -102,17 +102,29 @@ html, body {
 }
 
 /*....................................................................................................................*/
+/* ACCORDION */
+
+#accordion {
+  width: 100%;
+  height: 1200px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*....................................................................................................................*/
 /* CLIENTS */
 
 #client {
   width: 100%;
   height: 1200px;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-attachment: fixed;
-  margin: 0.5vw 0 0.5vw 0;
+  margin: 1vw 0 1vw 0;
 }
 #clientBox {
   width: 61vw;
