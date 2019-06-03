@@ -180,6 +180,22 @@ html, body {
 }
 
 /*....................................................................................................................*/
+/* CONTACT */
+
+#contact ::-webkit-input-placeholder {color: #FFF} /* WebKit, Blink, Edge */
+#contact ::-ms-input-placeholder {color: #FFF} /* Microsoft Edge */
+#contact :-ms-input-placeholder {color: #FFF} /* Internet Explorer 10-11 */
+#contact ::placeholder {color: #FFF} /* Most modern browsers support this now. */
+#contact :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #FFF;
+  opacity: 1;
+}
+#contact ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #FFF;
+  opacity: 1;
+}
+
+/*....................................................................................................................*/
 /* FOOTER */
 
 #footer {
