@@ -152,12 +152,6 @@ html, body {
   justify-content: center;
   margin: 1vw 0 1vw 0;
 }
-#clientBox {
-  width: 61vw;
-  height: 40.5vw;
-  background: white;
-  border-radius: 40px 0 0 0;
-}
 #clientTitle {
   background: darkorange;
   display: flex;
@@ -168,8 +162,6 @@ html, body {
   color: white;
   border-radius: 40px 0 0 0;
 }
-#client0, #client1, #client3, #client4 {margin-left: 0.5vw}
-#client2, #client3, #client4 {margin-top: 0.5vw}
 
 .client {
   width: 20vw;
@@ -220,10 +212,11 @@ html, body {
 /*....................................................................................................................*/
 /* CONTACT */
 
+#contact {overflow-x: hidden}
 #contact ::-webkit-input-placeholder {color: #FFF} /* WebKit, Blink, Edge */
 #contact ::-ms-input-placeholder {color: #FFF} /* Microsoft Edge */
 #contact :-ms-input-placeholder {color: #FFF} /* Internet Explorer 10-11 */
-#contact ::placeholder {color: #FFF} /* Most modern browsers support this now. */
+#contact ::placeholder {color: #FFF} /* Most modern browsers support this now */
 #contact :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   color: #FFF;
   opacity: 1;
@@ -232,6 +225,11 @@ html, body {
   color: #FFF;
   opacity: 1;
 }
+
+/*....................................................................................................................*/
+/* NEWSLETTER */
+
+#newsletter {overflow-x: hidden}
 
 /*....................................................................................................................*/
 /* FOOTER */

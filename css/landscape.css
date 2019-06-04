@@ -80,6 +80,18 @@
   #about {height: 1500px}
 
   /*..................................................................................................................*/
+  /* CLIENTS */
+
+  #clientBox {
+    width: 61vw;
+    height: 40.5vw;
+    background: white;
+    border-radius: 40px 0 0 0;
+  }
+  #client0, #client1, #client3, #client4 {margin-left: 0.5vw}
+  #client2, #client3, #client4 {margin-top: 0.5vw}
+
+  /*..................................................................................................................*/
   /* CONTACT */
 
   #contact {
@@ -200,9 +212,10 @@
   #dog {
     width: 50%;
     height: 100%;
-    background-position: center;
+    margin-right: 5vw;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto 100%;
   }
   #signup {
     width: 50%;

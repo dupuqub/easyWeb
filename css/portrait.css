@@ -74,6 +74,18 @@
   #about {height: 1000px}
 
   /*..................................................................................................................*/
+  /* CLIENTS */
+
+  #clientBox {
+    width: 40.5vw;
+    height: 61vw;
+    background: white;
+    border-radius: 40px 0 0 0;
+  }
+  #client0, #client2, #client4 {margin-left: 0.5vw}
+  #client1, #client2, #client3, #client4 {margin-top: 0.5vw}
+
+  /*..................................................................................................................*/
   /* CONTACT */
   #contact {
     width: 100%;
