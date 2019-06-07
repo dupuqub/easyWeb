@@ -158,14 +158,11 @@ html, body {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 3vw;
   color: white;
   border-radius: 40px 0 0 0;
 }
 
 .client {
-  width: 20vw;
-  height: 20vw;
   float: left;
   background-size: cover;
   background-position: center;
@@ -181,13 +178,6 @@ html, body {
   align-items: center;
   justify-content: center;
 }
-.clientLogoBox .clientName {opacity: 0}
-.clientLogoBox:hover {background: rgba(0,0,0,0)}
-.clientLogoBox:hover .clientLogo {opacity: 0}
-.clientLogoBox:hover .clientName {
-  opacity: 1;
-  width: 20vw;
-}
 .clientLogo {
   width: 100%;
   height: 100%;
@@ -196,17 +186,13 @@ html, body {
   background-repeat: no-repeat;
 }
 .clientName {
-  width: 0vw;
-  height: 3vw;
   background: darkorange;
-  font-size: 2vw;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: 0.2s all;
   position: absolute;
-  transform: translateY(8.5vw);
 }
 
 /*....................................................................................................................*/

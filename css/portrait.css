@@ -1,4 +1,4 @@
-@media screen and (orientation: portrait)
+  @media screen and (orientation: portrait)
 {
   /*..................................................................................................................*/
   /* ID */
@@ -77,13 +77,21 @@
   /* CLIENTS */
 
   #clientBox {
-    width: 40.5vw;
-    height: 61vw;
+    width: 60.5vw;
+    height: 91vw;
     background: white;
     border-radius: 40px 0 0 0;
   }
+  #clientTitle {font-size: 4.5vw}
   #client0, #client2, #client4 {margin-left: 0.5vw}
   #client1, #client2, #client3, #client4 {margin-top: 0.5vw}
+
+  .client {
+    width: 30vw;
+    height: 30vw;
+  }
+  .clientName {display: none}
+
 
   /*..................................................................................................................*/
   /* CONTACT */
