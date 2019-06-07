@@ -13,6 +13,20 @@ let textNext = 0
 let counter = 180
 
 //......................................................................................................................
+onclick = event => {
+  if(event.target.classList.contains(`accordionPart`)) {
+    const hovered = Number(event.target.id.substring(13))
+    Array.from(getAll(`.accordionPart`)).map((item, index) => {
+      if(index === hovered) item.style.height = `calc(70% - 25px)`
+      else item.style.height = `calc(10% - 25px)`
+    })
+  }
+  else {
+    Array.from(getAll(`.accordionPart`)).map((item, index) => item.style.height = ``)
+  }
+}
+
+//......................................................................................................................
 const loop = () => {
   if(counter === 180) moveImageCarousel()
   else if(counter === 160) moveTextCarousel()
@@ -28,4 +42,5 @@ const start = () => {
   setTimeout(() => loop(), 1000)
 }
 
+//......................................................................................................................
 start()
