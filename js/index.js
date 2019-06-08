@@ -13,12 +13,14 @@ let textNext = 0
 let counter = 180
 
 //......................................................................................................................
-onclick = event => {
+onclick = event => touchClick(event)
+ontouchstart = event => touchClick(event)
+touchClick = event => {
   if(event.target.classList.contains(`accordionPart`)) {
     const hovered = Number(event.target.id.substring(13))
     Array.from(getAll(`.accordionPart`)).map((item, index) => {
-      if(index === hovered) item.style.height = `calc(70% - 25px)`
-      else item.style.height = `calc(10% - 25px)`
+      if(index === hovered) item.style.height = `280px`
+      else item.style.height = `40px`
     })
   }
   else {
