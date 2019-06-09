@@ -79,6 +79,7 @@ html, body {
   transform: translateY(-330px);
   overflow: hidden;
   display: flex;
+  position: absolute;
 }
 
 .imgCrslBox {
