@@ -66,7 +66,7 @@ const start = () => {
   if(iOS()) {
     get(`#accordion`).style.backgroundAttachment = `scroll`
     get(`#clients`).style.backgroundAttachment = `scroll`
-    Array.from(getAll(`.accordionPart`)).foreach(item => item.style.backgroundAttachment = `scroll`)
+    Array.from(getAll(`.accordionPart`)).forEach(item => item.style.backgroundAttachment = `scroll`)
   }
   setTimeout(() => loop(), 1000)
 }
