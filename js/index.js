@@ -16,7 +16,25 @@ let counter = 180
 onclick = event => touchClick(event)
 ontouchstart = event => touchClick(event)
 touchClick = event => {
-  if(event.target.classList.contains(`accordionPart`)) {
+
+  //....................................................................................................................
+  // HEADER MENU
+
+  if(event.target.id === `btnMenu0`) {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(`#about`).offset().top
+    }, 500)
+  }
+  else if(event.target.id === `btnMenu1`) {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(`#accordion`).offset().top
+    }, 1000)
+  }
+
+  //....................................................................................................................
+  // ACCORDION
+
+  else if(event.target.classList.contains(`accordionPart`)) {
     const hovered = Number(event.target.id.substring(13))
     Array.from(getAll(`.accordionPart`)).map((item, index) => {
       if(index === hovered) item.style.height = `280px`
