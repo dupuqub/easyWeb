@@ -28,6 +28,26 @@ touchClick = event => {
   else if(event.target.id === `btnMenu1`) {
     $([document.documentElement, document.body]).animate({
       scrollTop: $(`#accordion`).offset().top
+    }, 600)
+  }
+  else if(event.target.id === `btnMenu2`) {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(`#industry`).offset().top
+    }, 700)
+  }
+  else if(event.target.id === `btnMenu3`) {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(`#clients`).offset().top
+    }, 800)
+  }
+  else if(event.target.id === `btnMenu4`) {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(`#contact`).offset().top
+    }, 900)
+  }
+  else if(event.target.id === `btnMenu5`) {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(`#newsletter`).offset().top
     }, 1000)
   }
 
