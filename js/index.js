@@ -18,51 +18,30 @@ ontouchstart = event => touchClick(event)
 touchClick = event => {
 
   //....................................................................................................................
+  // ACCORDION . part 1
+
+  Array.from(getAll(`.accordionPart`)).map((item, index) => item.style.height = `10%`)
+
+  //....................................................................................................................
   // HEADER MENU
 
-  if(event.target.id === `btnMenu0`) {
+  if(event.target.classList.contains(`btnMenu`)) {
+    const areas = [`about`, `accordion`, `industry`, `clients`, `contact`, `newsletter`]
+    const clicked = Number(event.target.id.substring(7))
     $([document.documentElement, document.body]).animate({
-      scrollTop: $(`#about`).offset().top
-    }, 500)
-  }
-  else if(event.target.id === `btnMenu1`) {
-    $([document.documentElement, document.body]).animate({
-      scrollTop: $(`#accordion`).offset().top
-    }, 600)
-  }
-  else if(event.target.id === `btnMenu2`) {
-    $([document.documentElement, document.body]).animate({
-      scrollTop: $(`#industry`).offset().top
-    }, 700)
-  }
-  else if(event.target.id === `btnMenu3`) {
-    $([document.documentElement, document.body]).animate({
-      scrollTop: $(`#clients`).offset().top
-    }, 800)
-  }
-  else if(event.target.id === `btnMenu4`) {
-    $([document.documentElement, document.body]).animate({
-      scrollTop: $(`#contact`).offset().top
-    }, 900)
-  }
-  else if(event.target.id === `btnMenu5`) {
-    $([document.documentElement, document.body]).animate({
-      scrollTop: $(`#newsletter`).offset().top
-    }, 1000)
+      scrollTop: $(`#` + areas[clicked]).offset().top
+    }, 500 + 100 * clicked)
   }
 
   //....................................................................................................................
-  // ACCORDION
+  // ACCORDION . part 2
 
   else if(event.target.classList.contains(`accordionPart`)) {
     const hovered = Number(event.target.id.substring(13))
     Array.from(getAll(`.accordionPart`)).map((item, index) => {
-      if(index === hovered) item.style.height = `280px`
-      else item.style.height = `40px`
+      if(index === hovered) item.style.height = `45%`
+      else item.style.height = `5%`
     })
-  }
-  else {
-    Array.from(getAll(`.accordionPart`)).map((item, index) => item.style.height = ``)
   }
 }
 
