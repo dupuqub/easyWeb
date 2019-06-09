@@ -29,6 +29,12 @@ touchClick = event => {
 }
 
 //......................................................................................................................
+onscroll = event => {
+  const rect = get(`#accordion`).getBoundingClientRect()
+  get(`#accordion`).style.backgroundPosition = `center ${-rect.y}px`
+}
+
+//......................................................................................................................
 const loop = () => {
   if(counter === 180) moveImageCarousel()
   else if(counter === 160) moveTextCarousel()
