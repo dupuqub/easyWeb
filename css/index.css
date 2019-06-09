@@ -33,7 +33,7 @@ html, body {
 #accordionPart6 {background-image: url("../images/accordion6.jpg")}
 #accordionPart7 {background-image: url("../images/accordion7.jpg")}
 
-#client {background-image: url("../images/clientBack.jpg")}
+#clients {background-image: url("../images/clientBack.jpg")}
 #client0 {background-image: url("../images/client0.jpg")}
 #client1 {background-image: url("../images/client1.jpg")}
 #client2 {background-image: url("../images/client2.jpg")}
@@ -182,7 +182,7 @@ html, body {
 /*....................................................................................................................*/
 /* CLIENTS */
 
-#client {
+#clients {
   width: 100%;
   height: 1200px;
   background-size: cover;
