@@ -146,13 +146,9 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center;
-  background-attachment: scroll;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; 
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 #accordionBox {
   width: 80%;
@@ -182,15 +178,6 @@ html, body {
   padding: 0;
 }
 .accordionPart:hover {box-shadow: 0 0 0 0 inset}
-/*
-#accordionPart0:hover {height: calc(70% - 25px)}
-#accordionPart0:hover + #accordionPart1{height: calc(10% - 25px)}
-#accordionPart0:hover ~ #accordionPart2{height: calc(10% - 25px)}
-#accordionPart0:hover ~ #accordionPart3{height: calc(10% - 25px)}
-
-waiting on previous sibling selector, currently solved by javascript
-*/
-
 
 /*....................................................................................................................*/
 /* CLIENTS */
