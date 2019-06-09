@@ -40,7 +40,34 @@ const loop = () => {
 }
 
 //......................................................................................................................
+const iOS = () => {
+  var iDevices = [
+    'iPad Simulator',
+    'iPhone Simulator',
+    'iPod Simulator',
+    'iPad',
+    'iPhone',
+    'iPod',
+  ]
+
+  if (!!navigator.platform) {
+    while (iDevices.length) {
+      if (navigator.platform === iDevices.pop()){
+        return true
+      }
+    }
+  }
+
+  return false
+}
+
+//......................................................................................................................
 const start = () => {
+  if(iOS()) {
+    get(`#accordion`).style.backgroundAttachment = `scroll`
+    get(`#clients`).style.backgroundAttachment = `scroll`
+    Array.from(getAll(`.accordionPart`)).foreach(item => item.style.backgroundAttachment = `scroll`)
+  }
   setTimeout(() => loop(), 1000)
 }
 

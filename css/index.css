@@ -148,6 +148,7 @@ html, body {
   justify-content: center;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 #accordionBox {
   width: 80%;
@@ -171,6 +172,7 @@ html, body {
   transition: 0.3s all;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   box-shadow: 0 0 60px 0 inset;
   cursor: pointer;
   padding: 0;
