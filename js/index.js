@@ -6,8 +6,6 @@ const getAll = query => document.querySelectorAll(query)
 const arrayer = length => Array.from({length})
 
 //......................................................................................................................
-const imageFrames = getAll(`.imgCrslBox`)
-const textFrames = getAll(`.txtCrslBox`)
 let imageNext = 0
 let textNext = 0
 let counter = 180

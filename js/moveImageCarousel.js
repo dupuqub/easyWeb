@@ -2,6 +2,8 @@
 
 //......................................................................................................................
 const moveImageCarousel = () => {
+  const imageFrames = getAll(`.imgCrslBox`)
+
   if(imageNext > imageFrames.length - 2) imageNext = 0
   else imageNext ++
 

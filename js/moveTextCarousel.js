@@ -2,6 +2,8 @@
 
 //......................................................................................................................
 const moveTextCarousel = () => {
+  const textFrames = getAll(`.txtCrslBox`)
+
   if(textNext > textFrames.length - 2) textNext = 0
   else textNext ++
 
