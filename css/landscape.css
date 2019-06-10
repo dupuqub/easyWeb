@@ -48,8 +48,8 @@
   }
   .btnMenu:hover {
     color: #E32651;
-    transform: translateY(-5px);
-    text-shadow: 0px 5px 1px #DDD;
+    transform: translateY(-2px);
+    text-shadow: 0px 2px 1px #DDD;
   }
   .btnSocial {
     width: 40px;
