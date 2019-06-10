@@ -73,15 +73,18 @@
   /*..................................................................................................................*/
   /* CLIENTS */
 
+  #clients {
+    height: 200vw;
+  }
   #clientBox {
     width: 60.5vw;
-    height: 91vw;
+    height: 152vw;
     background: white;
     border-radius: 40px 0 0 0;
   }
   #clientTitle {font-size: 4.5vw}
-  #client0, #client2, #client4 {margin-left: 0.5vw}
-  #client1, #client2, #client3, #client4 {margin-top: 0.5vw}
+  #client0, #client2, #client4, #client6, #client8 {margin-left: 0.5vw}
+  #client1, #client2, #client3, #client4, #client5, #client6, #client7, #client8 {margin-top: 0.5vw}
 
   .client {
     width: 30vw;

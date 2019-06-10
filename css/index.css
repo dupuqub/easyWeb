@@ -39,11 +39,19 @@ html, body {
 #client2 {background-image: url("../images/client2.jpg")}
 #client3 {background-image: url("../images/client3.jpg")}
 #client4 {background-image: url("../images/client4.jpg")}
+#client5 {background-image: url("../images/client5.jpg")}
+#client6 {background-image: url("../images/client6.jpg")}
+#client7 {background-image: url("../images/client7.jpg")}
+#client8 {background-image: url("../images/client8.jpg")}
 #client0Logo {background-image: url("../images/client0Logo.png")}
 #client1Logo {background-image: url("../images/client1Logo.png")}
 #client2Logo {background-image: url("../images/client2Logo.png")}
 #client3Logo {background-image: url("../images/client3Logo.png")}
 #client4Logo {background-image: url("../images/client4Logo.png")}
+#client5Logo {background-image: url("../images/client5Logo.png")}
+#client6Logo {background-image: url("../images/client6Logo.png")}
+#client7Logo {background-image: url("../images/client7Logo.png")}
+#client8Logo {background-image: url("../images/client8Logo.png")}
 
 #phoneIcon {background-image: url("../images/phone.png")}
 #whatsappIcon {background-image: url("../images/whatsapp.png")}
@@ -204,7 +212,6 @@ html, body {
 
 #clients {
   width: 100%;
-  height: 100%;
   background-size: cover;
   background-position: center;
   display: flex;

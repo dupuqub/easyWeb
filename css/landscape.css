@@ -79,16 +79,22 @@
   /*..................................................................................................................*/
   /* CLIENTS */
 
-  #clients {background-attachment: fixed}
+  #clients {
+    height: 120vw;
+    background-attachment: fixed;
+  }
   #clientBox {
     width: 61vw;
-    height: 40.5vw;
+    height: 81.5vw;
     background: white;
     border-radius: 40px 0 0 0;
   }
-  #clientTitle {font-size: 3vw}
-  #client0, #client1, #client3, #client4 {margin-left: 0.5vw}
-  #client2, #client3, #client4 {margin-top: 0.5vw}
+  #clientTitle {
+    font-size: 4vw;
+    width: 61vw;
+  }
+  #client1, #client2, #client4, #client5, #client7, #client8 {margin-left: 0.5vw}
+  #client0, #client1, #client2, #client3, #client4, #client5, #client6, #client7, #client8 {margin-top: 0.5vw}
 
   .client {
     width: 20vw;
