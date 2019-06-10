@@ -1,5 +1,6 @@
 `use strict`
 
+//......................................................................................................................
 const moveImageCarousel = () => {
   if(imageNext > imageFrames.length - 2) imageNext = 0
   else imageNext ++

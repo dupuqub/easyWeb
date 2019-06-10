@@ -175,8 +175,8 @@ html, body {
   padding: 0;
 }
 .accordionText {
-  height: 100%;
   width: 100%;
+  height: 100%;
   color: white;
   font-size: 2vh;
   display: flex;
@@ -187,6 +187,7 @@ html, body {
   background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
 }
 .accordionText:hover {
+  padding-left: 4vw;
   background-image: linear-gradient(to right, rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
