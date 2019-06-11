@@ -10,6 +10,14 @@ touchClick = event => {
   Array.from(getAll(`.accordionText`)).map((item, index) => item.style.height = `100%`)
 
   //....................................................................................................................
+  // TOP
+  if(event.target.id === `top`) {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $(`#header`).offset().top
+    }, 500)
+  }
+
+  //....................................................................................................................
   // HEADER MENU
 
   if(event.target.classList.contains(`btnMenu`)) {

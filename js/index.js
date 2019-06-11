@@ -18,7 +18,8 @@ ontouchstart = event => touchClick(event)
 
 //......................................................................................................................
 let counter = 180
-const loop = () => {
+let carouselSpin = false
+const carouselSpinner = () => {
   if(counter === 180) {
     moveCarousel(`crslNext0`, `.imgCrslBox`)
     moveCarousel(`crslNext2`, `.indCrslBox`)
@@ -29,6 +30,21 @@ const loop = () => {
 
   if(counter < 0) counter = 180
   else counter --
+}
+
+//......................................................................................................................
+const loop = () => {
+  const top = get(`#top`)
+  if(window.pageYOffset) {
+    top.style.height = `3%`
+    top.style.fontSize = `100%`
+  }
+  else {
+    top.style.height = `0`
+    top.style.fontSize = `0`
+  }
+
+  if(carouselSpin) carouselSpinner()
 
   window.requestAnimationFrame(loop)
 }
@@ -40,7 +56,8 @@ const start = () => {
     get(`#industry`).style.backgroundAttachment = `scroll`
     get(`#clients`).style.backgroundAttachment = `scroll`
   }
-  setTimeout(() => loop(), 1000)
+  setTimeout(() => carouselSpin = true, 1000)
+  loop()
 }
 
 //......................................................................................................................
