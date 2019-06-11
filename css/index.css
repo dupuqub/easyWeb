@@ -85,14 +85,6 @@ html, body {
   overflow: hidden;
   display: flex;
 }
-#textCarousel {
-  width: 100%;
-  height: 280px;
-  transform: translateY(-330px);
-  overflow: hidden;
-  display: flex;
-  position: absolute;
-}
 
 .imgCrslBox {
   justify-content: center;
@@ -140,6 +132,8 @@ html, body {
   justify-content: center;
   flex-direction: column;
   color: #666;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
 }
 #aboutTitle {
   width: 50%;

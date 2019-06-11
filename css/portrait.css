@@ -64,9 +64,17 @@
   /* CAROUSEL */
 
   #vignette, #imageCarousel {height: calc(100% - 590px)}
+  #textCarousel {
+    width: 100%;
+    height: 200px;
+    transform: translateY(-210px);
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+  }
 
   .txtCrslFrm {
-    font-size: 30px;
+    font-size: 25px;
     height: 70%;
   }
 
