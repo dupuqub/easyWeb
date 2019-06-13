@@ -1,7 +1,7 @@
 @media screen and (orientation: landscape)
 {
   /*..................................................................................................................*/
-  /* ID */
+  /* HEADER */
 
   #header {
     width: 100%;
@@ -33,9 +33,6 @@
     margin-right: 40px;
   }
 
-  /*..................................................................................................................*/
-  /* CLASS */
-
   .menuSpace {
     margin-left: 10px;
     margin-right: 10px;
@@ -44,12 +41,21 @@
   .btnMenu {
     height: 100%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
   }
   .btnMenu:hover {
-    color: #E32651;
-    transform: translateY(-2px);
-    text-shadow: 0px 2px 1px #DDD;
+    color: #FF004A;
+  }
+  .btnMenuUnder {
+    width: 0;
+    height: 3px;
+    background: #FF004A;
+    transition: 0.2s all;
+  }
+  .btnMenu:hover .btnMenuUnder {
+    width: 50%;
   }
   .btnSocial {
     width: 40px;
