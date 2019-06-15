@@ -37,7 +37,7 @@ const loop = () => {
   const top = get(`#top`)
   if(window.pageYOffset) {
     top.style.height = `3vh`
-    top.style.fontSize = `3vh`
+    top.style.fontSize = `2.5vh`
   }
   else {
     top.style.height = `0`

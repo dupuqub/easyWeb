@@ -147,8 +147,6 @@ html, body {
   justify-content: center;
   flex-direction: column;
   color: #666;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
 }
 #aboutTitle {
   width: 50%;
@@ -219,7 +217,6 @@ html, body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 1vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,7 +268,6 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1vw 0 1vw 0;
 }
 #clientTitle {
   background: darkorange;
