@@ -1,6 +1,9 @@
 @media screen and (orientation: portrait)
 {
   /*..................................................................................................................*/
+  /* TOP */
+
+  /*..................................................................................................................*/
   /* HEADER */
 
   #header {
@@ -9,10 +12,10 @@
     flex-direction: column;
   }
   #logo {
-    height: 200px;
     width: 100%;
-    background-repeat: no-repeat;
+    height: 150px;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 300px;
   }
   #menu {
@@ -23,261 +26,98 @@
     width: 100%;
     height: 150px;
     display: flex;
+    align-items: center;
     justify-content: center;
   }
   #btnMenu0, #btnMenu2, #btnMenu4, #btnMenu6 {
     border-left: 0;
-    border-radius: 0 30px 30px 0;
+    border-radius: 0 40px 40px 0;
   }
   #btnMenu1, #btnMenu3, #btnMenu5, #btnMenu7 {
     border-right: 0;
-    border-radius: 30px 0 0 30px;
+    border-radius: 40px 0 0 40px;
   }
-
   .menuSpace {
     display: none;
   }
   .btnMenu {
     width: 50%;
     height: 80px;
-    background: #E32651;
     color: white;
+    float: left;
     display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
     border: 10px solid white;
     box-sizing: border-box;
+    background: var(--cherry);
+    cursor: pointer;
   }
   .btnSocial {
     width: 80px;
-    height: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-size: 95%;
+    height: 80px;
+    margin: 0 20px 0 20px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
   }
 
   /*..................................................................................................................*/
-  /* CAROUSEL */
+  /* IMAGES */
 
-  #vignette, #imageCarousel {height: calc(100% - 590px)}
-  #textCarousel {
-    width: 100%;
-    height: 200px;
-    transform: translateY(-210px);
-    overflow: hidden;
-    display: flex;
-    position: absolute;
-  }
+  #logo {background-image: url("../images/logo.png")}
+  #btnSocial0 {background-image: url("../images/linkedin.png")}
+  #btnSocial1 {background-image: url("../images/facebook.png")}
+  #btnSocial2 {background-image: url("../images/instagram.png")}
 
-  .txtCrslFrm {
-    font-size: 25px;
-    height: 70%;
-  }
+  #imgCrslFrm0 {background-image: url("../images/carousel0.jpg")}
+  #imgCrslFrm1 {background-image: url("../images/carousel1.jpg")}
+  #imgCrslFrm2 {background-image: url("../images/carousel2.jpg")}
+  #imgCrslFrm3 {background-image: url("../images/carousel3.jpg")}
+  #imgCrslFrm4 {background-image: url("../images/carousel4.jpg")}
 
-  /*..................................................................................................................*/
-  /* CLIENTS */
+  #about {background-image: url("../images/aboutBack.png")}
 
-  #clients {
-    height: 200vw;
-  }
-  #clientBox {
-    width: 60.5vw;
-    height: 152vw;
-    background: white;
-    border-radius: 40px 0 0 0;
-  }
-  #clientTitle {font-size: 4.5vw}
-  #client0, #client2, #client4, #client6, #client8 {margin-left: 0.5vw}
-  #client1, #client2, #client3, #client4, #client5, #client6, #client7, #client8 {margin-top: 0.5vw}
+  #accordion {background-image: url("../images/accordionBack.jpg")}
+  #accordionPart0 {background-image: url("../images/accordion0.jpg")}
+  #accordionPart1 {background-image: url("../images/accordion1.jpg")}
+  #accordionPart2 {background-image: url("../images/accordion2.jpg")}
+  #accordionPart3 {background-image: url("../images/accordion3.jpg")}
+  #accordionPart4 {background-image: url("../images/accordion4.jpg")}
+  #accordionPart5 {background-image: url("../images/accordion5.jpg")}
+  #accordionPart6 {background-image: url("../images/accordion6.jpg")}
+  #accordionPart7 {background-image: url("../images/accordion7.jpg")}
 
-  .client {
-    width: 30vw;
-    height: 30vw;
-  }
-  .clientName {display: none}
+  #industry {background-image: url("../images/industryBack.jpg")}
+  #indCrslFrm0 {background-image: url("../images/industry0.jpg")}
+  #indCrslFrm1 {background-image: url("../images/industry1.jpg")}
+  #indCrslFrm2 {background-image: url("../images/industry2.jpg")}
+  #indCrslFrm3 {background-image: url("../images/industry3.jpg")}
 
+  #clients {background-image: url("../images/clientBack.jpg")}
+  #client0 {background-image: url("../images/client0.jpg")}
+  #client1 {background-image: url("../images/client1.jpg")}
+  #client2 {background-image: url("../images/client2.jpg")}
+  #client3 {background-image: url("../images/client3.jpg")}
+  #client4 {background-image: url("../images/client4.jpg")}
+  #client5 {background-image: url("../images/client5.jpg")}
+  #client6 {background-image: url("../images/client6.jpg")}
+  #client7 {background-image: url("../images/client7.jpg")}
+  #client8 {background-image: url("../images/client8.jpg")}
+  #client0Logo {background-image: url("../images/client0Logo.png")}
+  #client1Logo {background-image: url("../images/client1Logo.png")}
+  #client2Logo {background-image: url("../images/client2Logo.png")}
+  #client3Logo {background-image: url("../images/client3Logo.png")}
+  #client4Logo {background-image: url("../images/client4Logo.png")}
+  #client5Logo {background-image: url("../images/client5Logo.png")}
+  #client6Logo {background-image: url("../images/client6Logo.png")}
+  #client7Logo {background-image: url("../images/client7Logo.png")}
+  #client8Logo {background-image: url("../images/client8Logo.png")}
 
-  /*..................................................................................................................*/
-  /* CONTACT */
+  #phoneIcon {background-image: url("../images/phone.png")}
+  #whatsappIcon {background-image: url("../images/whatsapp.png")}
 
-  #contact {
-    background: #FF004A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-  }
-  #contactBox {
-    width: 500px;
-    height: 800px;
-    background: #FE80A5;
-    border-radius: 20px 0 20px 0;
-    display: flex;
-    flex-direction: column;
-  }
-  #contactTitleBox {
-    width: 100%;
-    height: 55%;
-  }
-  #contactTitleLeft {
-    width: 100%;
-    height: 180px;
-    background: darkorange;
-    border-radius: 20px 0 0 0;
-    box-sizing: border-box;
-    border-bottom: 5px solid #FF004A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 50px;
-  }
-  #contactInfoBox {
-    width: 100%;
-    height: 45%;
-  }
-  #address {
-    margin-left: 20px;
-  }
-  #contactLeft {
-    height: 45%;
-  }
-  #contactRight {
-    height: 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  #contactTitleRight {
-    font-size: 30px;
-    margin: 0 15px 20px 0 ;
-    text-align: right;
-    font-weight: bold;
-  }
-  #contactMessage {
-    height: 140px;
-    word-wrap: all;
-    resize: none;
-    font-family: Helvetica, Verdana, Geneva, sans-serif;
-  }
-  #contactName {
-    border-radius: 20px 0 0 0;
-  }
-  #contactSend {
-    width: 472px;
-    height: 50px;
-    color: #FE80A5;
-    font-size: 20px;
-    font-weight: bold;
-    background: #FFDDEE;
-    margin: 5px 0 0 15px;
-    border-radius: 0 0 15px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #contactSend:hover {
-    background: white;
-  }
-
-  .contactSide {
-    width: 100%;
-  }
-  .contactInfo {
-    color: white;
-    font-size: 25px;
-    margin-left: 10px;
-  }
-  .phoneImage {
-    width: 30px;
-    height: 30px;
-    background-size: contain;
-    margin: 0 15px 0 10px;
-  }
-  .phoneBox {
-    display: flex;
-  }
-  .contactMinor {
-    height: 15px;
-    text-align: right;
-  }
-  .contactRightBox {
-    margin-left: 15px;
-    width: 447px;
-    border: 2px solid white;
-    margin-bottom: 5px;
-    background: rgba(0,0,0,0);
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-  }
-
-  /*..................................................................................................................*/
-  /* NEWSLETTER */
-
-  #newsletter {height: calc(100% - 150px)}
-  #dog {
-    height: 100%;
-    width: 50%;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-position: right;
-    margin-right: 30px;
-  }
-  #signup {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-  }
-  #signupTitle {
-    font-size: 40px;
-    font-weight: bold;
-  }
-  #signupSubtitle {
-    font-size: 25px;
-  }
-  #signupEmail {
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 20px 0 0 0;
-    border: 0;
-    margin-top: 50px;
-    padding: 0 10px 0 10px;
-    transition: all 0.2s;
-  }
-  #signupConfirm {
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
-    border-radius: 0 0 20px 0;
-    color: black;
-    display: flex;
-    align-items: center;
-    background: darkorange;
-    padding: 0 10px 0 10px;
-  }
-  #signupConfirm:hover {
-    background: orange;
-  }
-  #signupImage {
-    width: 45px;
-    height: 55px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: 135px;
-  }
-
-  /*..................................................................................................................*/
-  /* FOOTER */
-
-  #footer {height: 150px}
-  .footerInner {font-size: 25px}
+  #dog {background-image: url("../images/dog.jpg")}
+  #signupImage {background-image: url("../images/email.png")}
 }
