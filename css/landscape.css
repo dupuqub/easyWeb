@@ -1,27 +1,29 @@
 @media screen and (orientation: landscape)
 {
   /*..................................................................................................................*/
+  /* TOP */
+
+  /*..................................................................................................................*/
   /* HEADER */
 
   #header {
     width: 100%;
-    height: 100px;
+    height: 10%;
     display: flex;
   }
   #logo {
-    height: 100%;
     width: 230px;
-    background-repeat: no-repeat;
+    height: 100%;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 80%;
-    margin-left: 40px;
   }
   #menu {
-    width: calc(100% - 450px);
+    width: calc(100% - 450px); /* 450px = #logo:230px + #social:220px */
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     font-size: 21px;
   }
   #social {
@@ -30,42 +32,43 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 40px;
   }
-
   .menuSpace {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     cursor: default;
   }
   .btnMenu {
     height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+    flex-direction: column;
+    transition: var(--transit);
+    cursor: pointer;
   }
   .btnMenu:hover {
-    color: #FF004A;
+    color: var(--cherry);
   }
   .btnMenuUnder {
     width: 0;
     height: 3px;
-    background: #FF004A;
-    transition: 0.2s all;
+    background: var(--cherry);
+    transition: var(--transit);
   }
   .btnMenu:hover .btnMenuUnder {
     width: 50%;
   }
   .btnSocial {
-    width: 40px;
-    height: 100px;
+    width: 20%;
+    height: 100%;
     opacity: 0.5;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px 0 10px;
     background-size: 95%;
     background-repeat: no-repeat;
     background-position: center;
+    transition: var(--transit);
+    cursor: pointer;
   }
   .btnSocial:hover {
     opacity: 1;
@@ -73,226 +76,60 @@
   }
 
   /*..................................................................................................................*/
-  /* CAROUSEL */
+  /* IMAGES */
 
-  #vignette, #imageCarousel {height: calc(100% - 100px)}
-  #textCarousel {
-    width: 100%;
-    height: 28vh;
-    transform: translateY(-32vh);
-    overflow: hidden;
-    display: flex;
-    position: absolute;
-    font-size: calc(4vh + 10px);
-  }
+  #logo {background-image: url("../images/logo.png")}
+  #btnSocial0 {background-image: url("../images/linkedin.png")}
+  #btnSocial1 {background-image: url("../images/facebook.png")}
+  #btnSocial2 {background-image: url("../images/instagram.png")}
 
-  .txtCrslFrm {height: 100%}
+  #imgCrslFrm0 {background-image: url("../images/carousel0.jpg")}
+  #imgCrslFrm1 {background-image: url("../images/carousel1.jpg")}
+  #imgCrslFrm2 {background-image: url("../images/carousel2.jpg")}
+  #imgCrslFrm3 {background-image: url("../images/carousel3.jpg")}
+  #imgCrslFrm4 {background-image: url("../images/carousel4.jpg")}
 
-  /*..................................................................................................................*/
-  /* CLIENTS */
+  #about {background-image: url("../images/aboutBack.png")}
 
-  #clients {
-    height: 120vw;
-    background-attachment: fixed;
-  }
-  #clientBox {
-    width: 61vw;
-    height: 81.5vw;
-    background: white;
-    border-radius: 40px 0 0 0;
-  }
-  #clientTitle {
-    font-size: 4vw;
-    width: 61vw;
-  }
-  #client1, #client2, #client4, #client5, #client7, #client8 {margin-left: 0.5vw}
-  #client0, #client1, #client2, #client3, #client4, #client5, #client6, #client7, #client8 {margin-top: 0.5vw}
+  #accordion {background-image: url("../images/accordionBack.jpg")}
+  #accordionPart0 {background-image: url("../images/accordion0.jpg")}
+  #accordionPart1 {background-image: url("../images/accordion1.jpg")}
+  #accordionPart2 {background-image: url("../images/accordion2.jpg")}
+  #accordionPart3 {background-image: url("../images/accordion3.jpg")}
+  #accordionPart4 {background-image: url("../images/accordion4.jpg")}
+  #accordionPart5 {background-image: url("../images/accordion5.jpg")}
+  #accordionPart6 {background-image: url("../images/accordion6.jpg")}
+  #accordionPart7 {background-image: url("../images/accordion7.jpg")}
 
-  .client {
-    width: 20vw;
-    height: 20vw;
-  }
-  .clientLogoBox .clientName {opacity: 0}
-  .clientLogoBox:hover {background: rgba(0,0,0,0)}
-  .clientLogoBox:hover .clientLogo {opacity: 0}
-  .clientLogoBox:hover .clientName {
-    opacity: 1;
-    width: 20vw;
-  }
-  .clientName {
-    width: 0vw;
-    height: 3vw;
-    font-size: 2vw;
-    transform: translateY(8.5vw);
-  }
+  #industry {background-image: url("../images/industryBack.jpg")}
+  #indCrslFrm0 {background-image: url("../images/industry0.jpg")}
+  #indCrslFrm1 {background-image: url("../images/industry1.jpg")}
+  #indCrslFrm2 {background-image: url("../images/industry2.jpg")}
+  #indCrslFrm3 {background-image: url("../images/industry3.jpg")}
 
-  /*..................................................................................................................*/
-  /* CONTACT */
+  #clients {background-image: url("../images/clientBack.jpg")}
+  #client0 {background-image: url("../images/client0.jpg")}
+  #client1 {background-image: url("../images/client1.jpg")}
+  #client2 {background-image: url("../images/client2.jpg")}
+  #client3 {background-image: url("../images/client3.jpg")}
+  #client4 {background-image: url("../images/client4.jpg")}
+  #client5 {background-image: url("../images/client5.jpg")}
+  #client6 {background-image: url("../images/client6.jpg")}
+  #client7 {background-image: url("../images/client7.jpg")}
+  #client8 {background-image: url("../images/client8.jpg")}
+  #client0Logo {background-image: url("../images/client0Logo.png")}
+  #client1Logo {background-image: url("../images/client1Logo.png")}
+  #client2Logo {background-image: url("../images/client2Logo.png")}
+  #client3Logo {background-image: url("../images/client3Logo.png")}
+  #client4Logo {background-image: url("../images/client4Logo.png")}
+  #client5Logo {background-image: url("../images/client5Logo.png")}
+  #client6Logo {background-image: url("../images/client6Logo.png")}
+  #client7Logo {background-image: url("../images/client7Logo.png")}
+  #client8Logo {background-image: url("../images/client8Logo.png")}
 
-  #contact {
-    background: #FF004A;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #contactBox {
-    width: 800px;
-    height: 500px;
-    background: #FE80A5;
-    border-radius: 40px 0 40px 0;
-  }
-  #contactTitleBox {
-    width: 100%;
-    height: 75%;
-  }
-  #contactTitleLeft {
-    width: 300px;
-    height: 300px;
-    background: darkorange;
-    border-radius: 40px 0 40px 0;
-    box-sizing: border-box;
-    border-right: 5px solid #FF004A;
-    border-bottom: 5px solid #FF004A;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 40px;
-  }
-  #contactInfoBox {
-    width: 100%;
-    height: 25%;
-  }
-  #contactRight {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  #contactTitleRight {
-    font-size: 40px;
-    margin: 15px 15px 20px 0 ;
-    text-align: right;
-  }
-  #contactMessage {
-    height: 160px;
-    word-wrap: all;
-    resize: none;
-    font-family: Helvetica, Verdana, Geneva, sans-serif;
-  }
-  #contactName {
-    border-radius: 30px 0 0 0;
-  }
-  #contactSend {
-    width: 387px;
-    height: 50px;
-    color: #FE80A5;
-    font-size: 20px;
-    font-weight: bold;
-    background: #FFDDEE;
-    margin-top: 5px;
-    border-radius: 0 0 30px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #contactSend:hover {
-    background: white;
-  }
+  #phoneIcon {background-image: url("../images/phone.png")}
+  #whatsappIcon {background-image: url("../images/whatsapp.png")}
 
-  .contactSide {
-    width: 50%;
-    height: 100%;
-    float: left;
-  }
-  .contactInfo {
-    color: white;
-    font-size: 18px;
-    margin-left: 20px;
-  }
-  .phoneImage {
-    width: 20px;
-    height: 20px;
-    background-size: contain;
-    float: left;
-    margin-right: 15px;
-  }
-  .contactMinor {
-    height: 20px;
-    text-align: right;
-  }
-  .contactRightBox {
-    width: 363px;
-    border: 2px solid white;
-    margin-bottom: 5px;
-    background: rgba(0,0,0,0);
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-  }
-
-  /*..................................................................................................................*/
-  /* NEWSLETTER */
-
-  #newsletter {height: calc(100% - 100px)}
-  #dog {
-    width: 50%;
-    height: 100%;
-    margin-right: 5vw;
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-  }
-  #signup {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-  }
-  #signupTitle {
-    font-size: 60px;
-    font-weight: bold;
-  }
-  #signupSubtitle {
-    font-size: 30px;
-  }
-  #signupEmail {
-    width: 420px;
-    height: 70px;
-    font-size: 30px;
-    border-radius: 20px 0 0 0;
-    border: 0;
-    margin-top: 100px;
-    padding: 0 20px 0 20px;
-    transition: all 0.2s;
-  }
-  #signupConfirm {
-    width: 420px;
-    height: 70px;
-    font-size: 30px;
-    border-radius: 0 0 20px 0;
-    color: black;
-    display: flex;
-    align-items: center;
-    background: darkorange;
-    padding: 0 20px 0 20px;
-  }
-  #signupConfirm:hover {
-    background: orange;
-  }
-  #signupImage {
-    width: 80px;
-    height: 80px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: 180px;
-  }
-
-  /*..................................................................................................................*/
-  /* FOOTER */
-
-  #footer {height: 100px}
+  #dog {background-image: url("../images/dog.jpg")}
+  #signupImage {background-image: url("../images/email.png")}
 }
