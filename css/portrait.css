@@ -29,11 +29,17 @@
     align-items: center;
     justify-content: center;
   }
-  #btnMenu0, #btnMenu2, #btnMenu4, #btnMenu6 {
+  #btnMenu0,
+  #btnMenu2,
+  #btnMenu4,
+  #btnMenu6 {
     border-left: 0;
     border-radius: 0 40px 40px 0;
   }
-  #btnMenu1, #btnMenu3, #btnMenu5, #btnMenu7 {
+  #btnMenu1,
+  #btnMenu3,
+  #btnMenu5,
+  #btnMenu7 {
     border-right: 0;
     border-radius: 40px 0 0 40px;
   }
@@ -61,6 +67,64 @@
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+  }
+
+  /*..................................................................................................................*/
+  /* CAROUSEL */
+
+  #vignette {
+    width: 100%;
+    height: calc(100% - 540px); /* 540px = #logo:150px + .btnMenu:80px * 3 + #social:150px */
+    box-shadow: 0px -80px 200px 50px inset;
+    position: absolute;
+  }
+  #imageCarousel {
+    width: 100%;
+    height: calc(100% - 540px); /* 540px = #logo:150px + .btnMenu:80px * 3 + #social:150px */
+    display: flex;
+    overflow: hidden;
+  }
+  #textCarousel {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    font-size: 25px;
+    transform: translateY(-210px);
+  }
+  .imgCrslBox {
+    justify-content: center;
+  }
+  .txtCrslBox {
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .imgCrslBox,
+  .txtCrslBox {
+    min-width: 80%;
+    height: 100%;
+    transition: var(--transitCarousel);
+    display: flex;
+  }
+  .imgCrslFrm {
+    width: 80%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px 0 40px 0;
+  }
+  .txtCrslFrm {
+    width: 40%;
+    height: 100%;
+    background: var(--cherry);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 40px 0 40px;
+    border-radius: 40px 0 40px 0;
   }
 
   /*..................................................................................................................*/
