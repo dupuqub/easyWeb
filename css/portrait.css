@@ -128,6 +128,31 @@
   }
 
   /*..................................................................................................................*/
+  /* ABOUT */
+
+  #about {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #666;
+  }
+  #aboutTitle {
+    width: 50%;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  #aboutText {
+    width: 50%;
+    font-size: calc(1vw + 15px);
+  }
+
+  /*..................................................................................................................*/
   /* IMAGES */
 
   #logo {background-image: url("../images/logo.png")}
