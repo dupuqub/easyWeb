@@ -34,7 +34,7 @@ const carouselSpinner = () => {
 
 //......................................................................................................................
 const loop = () => {
-  get(`#top`).style.height = window.pageYOffset ? `50px` : `0`
+  get(`#top`).style.height = window.pageYOffset ? (window.innerHeight > window.innerWidth ? `70px` : `50px`) : `0`
 
   if(carouselSpin) carouselSpinner()
 
