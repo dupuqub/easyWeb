@@ -313,6 +313,10 @@
     background-size: cover;
     background-position: center;
     cursor: pointer;
+    -webkit-user-select: none; /* Chrome & Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+     user-select: none; /* Likely future */  
   }
   .clientLogoBox {
     width: 100%;
