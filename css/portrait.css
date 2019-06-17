@@ -296,10 +296,16 @@
     margin-top: 100px;
   }
   #clientBox {
-    width: 600px;
-    height: 1500px;
+    width: 610px;
+    height: 1540px;
     margin-bottom: 200px;
   }
+  #client0, #client2, #client4, #client6, #client8 {
+    margin-right: 10px;
+  } 
+  #client0, #client1, #client2, #client3, #client4, #client5, #client6 {
+    margin-bottom: 10px;
+  } 
   .client {
     width: 300px;
     height: 300px;
@@ -328,7 +334,28 @@
     transition: var(--transitCommon);
   }
   .clientName {
-    display: none;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    transform: translateY(-135px);
+    background: darkorange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transitCommon);
+    position: absolute;
+    opacity: 0;
+  }
+  .clientLogoBox:active {
+    background: rgba(0,0,0,0);
+  }
+  .clientLogoBox:active .clientLogo {
+    opacity: 0;
+  }
+  .clientLogoBox:active .clientName {
+    opacity: 1;
+    width: 300px;
   }
 
   /*..................................................................................................................*/
