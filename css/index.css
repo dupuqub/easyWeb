@@ -3,12 +3,14 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  cursor: default;
   font-family: Helvetica, Verdana, Geneva, sans-serif;
 }
 
 :root {
   --cherry: #E32651;
-  --titleSize: 50px;
+  --titleHeight: 20%;
+  --titleFontSize: 50px;
   --transitCommon: 0.3s all;
   --transitCarousel: 2s all;
 }
