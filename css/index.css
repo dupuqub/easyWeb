@@ -8,6 +8,6 @@ html, body {
 
 :root {
   --cherry: #E32651;
-  --transitCommon: 0.2s all;
+  --transitCommon: 0.3s all;
   --transitCarousel: 2s all;
 }
