@@ -13,4 +13,6 @@ html, body {
   --titleFontSize: 50px;
   --transitCommon: 0.3s all;
   --transitCarousel: 2s all;
+  --radiusPortrait: 50px;
+  --radiusLandscape: 40px;
 }
