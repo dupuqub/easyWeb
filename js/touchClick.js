@@ -7,7 +7,7 @@ touchClick = event => {
   // ACCORDION . part 1
 
   Array.from(getAll(`.accordionPart`)).map((item, index) => item.style.height = `10%`)
-  Array.from(getAll(`.accordionText`)).map((item, index) => item.style.height = `100%`)
+  Array.from(getAll(`.accordionText`)).map((item, index) => item.style.height = `95%`)
 
   //....................................................................................................................
   // TOP
@@ -40,7 +40,7 @@ touchClick = event => {
     })
     Array.from(getAll(`.accordionText`)).map((item, index) => {
       if(index === clicked) item.style.height = `15%`
-      else item.style.height = `100%`
+      else item.style.height = `95%`
     })
   }
 }
