@@ -408,8 +408,8 @@
     background: darkorange;
     box-sizing: border-box;
     border-radius: var(--radiusLandscape) 0 var(--radiusLandscape) 0;
-    border-right: 5px solid var(--cherry);
-    border-bottom: 5px solid var(--cherry);
+    border-right: 5px solid #FF004A;
+    border-bottom: 5px solid #FF004A;
     display: flex;
     align-items: center;
     justify-content: center;

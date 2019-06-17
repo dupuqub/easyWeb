@@ -406,7 +406,7 @@
     background: darkorange;
     border-radius: var(--radiusPortrait) 0 0 0;
     box-sizing: border-box;
-    border-bottom: 5px solid var(--cherry);
+    border-bottom: 5px solid #FF004A;
     display: flex;
     align-items: center;
     justify-content: center;
