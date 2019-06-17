@@ -9,7 +9,7 @@ html, body {
 
 :root {
   --cherry: #E32651;
-  --titleHeight: 20%;
+  --titleHeight: 200px;
   --titleFontSize: 50px;
   --transitCommon: 0.3s all;
   --transitCarousel: 2s all;
