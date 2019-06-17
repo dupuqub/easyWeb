@@ -545,12 +545,11 @@
     background: orange;
   }
   #signupImage {
-    width: 80px;
+    width: 100%;
     height: 80px;
-    background-size: contain;
-    background-position: center;
+    background-size: auto 80%;
+    background-position: center right;
     background-repeat: no-repeat;
-    margin-left: 180px;
   }
 
   /*..................................................................................................................*/
