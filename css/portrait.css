@@ -11,7 +11,7 @@
     background: rgba(0,0,0,0.5);
     z-index: 9999;
     font-size: 0;
-    transition: 0.3s all;
+    transition: var(--transitCommon);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,21 +203,20 @@
   .accordionPart {
     width: 100%;
     height: 10%;
-    transition: 0.3s all;
+    transition: var(--transitCommon);
     background-size: cover;
     background-position: center;
     cursor: pointer;
-    padding: 0;
   }
   .accordionText {
     width: 100%;
     height: 100%;
     color: white;
-    font-size: 2vh;
+    font-size: 30px;
     display: flex;
     align-items: center;
-    transition: 0.3s all;
-    padding-left: 2vw;
+    transition: var(--transitCommon);
+    padding-left: 30px;
     box-sizing: border-box;
     background-image: linear-gradient(to right, black, rgba(0,0,0,0));
   }
