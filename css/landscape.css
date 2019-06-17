@@ -140,7 +140,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    border-radius: 40px 0 40px 0;
+    border-radius: var(--radiusLandscape) 0 var(--radiusLandscape) 0;
   }
   .txtCrslFrm {
     width: 40%;
@@ -152,7 +152,7 @@
     align-items: center;
     justify-content: center;
     padding: 0 40px 0 40px;
-    border-radius: 40px 0 40px 0;
+    border-radius: var(--radiusLandscape) 0 var(--radiusLandscape) 0;
   }
 
   /*..................................................................................................................*/
@@ -301,7 +301,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 40px 0 0 0;
+    border-radius: var(--radiusLandscape) 0 0 0;
     margin-top: 100px;
   }
   #clientBox {
@@ -390,7 +390,7 @@
     width: 800px;
     height: 500px;
     background: #FE80A5;
-    border-radius: 40px 0 40px 0;
+    border-radius: var(--radiusLandscape) 0 var(--radiusLandscape) 0;
   }
   #contactTitleBox {
     width: 100%;
@@ -401,7 +401,7 @@
     height: 300px;
     background: darkorange;
     box-sizing: border-box;
-    border-radius: 40px 0 40px 0;
+    border-radius: var(--radiusLandscape) 0 var(--radiusLandscape) 0;
     border-right: 5px solid var(--cherry);
     border-bottom: 5px solid var(--cherry);
     display: flex;
@@ -431,7 +431,7 @@
     font-family: Helvetica, Verdana, Geneva, sans-serif;
   }
   #contactName {
-    border-radius: 30px 0 0 0;
+    border-radius: calc(var(--radiusLandscape) - 15px) 0 0 0;
   }
   #contactSend {
     width: 387px;
@@ -441,7 +441,7 @@
     font-weight: bold;
     background: #FFDDEE;
     margin-top: 5px;
-    border-radius: 0 0 30px 0;
+    border-radius: 0 0 calc(var(--radiusLandscape) - 15px) 0;
     display: flex;
     align-items: center;
     justify-content: center;
