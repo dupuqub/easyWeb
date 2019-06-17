@@ -380,7 +380,7 @@
   #contact {
     width: 100%;
     height: 100%;
-    background: var(--cherry);
+    background: #FF004A;
     color: white;
     display: flex;
     align-items: center;
@@ -438,8 +438,8 @@
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
-    padding-right: 10px;
-    margin-bottom: 20px;
+    padding: 0 10px 20px 0;
+    box-sizing: border-box;
   }
   #contactMessage {
     height: 40%;
