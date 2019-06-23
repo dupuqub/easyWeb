@@ -161,7 +161,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #666;
+    color: white;
   }
   #aboutTitle {
     width: 50%;
@@ -597,7 +597,7 @@
   #imgCrslFrm3 {background-image: url("../images/portrait/carousel3.png")}
   #imgCrslFrm4 {background-image: url("../images/portrait/carousel4.png")}
 
-  #about {background-image: url("../images/aboutBack.png")}
+  #about {background-image: url("../images/portrait/aboutBack.jpg")}
 
   #accordion {background-image: url("../images/accordionBack.jpg")}
   #accordionPart0 {background-image: url("../images/accordion0.jpg")}
