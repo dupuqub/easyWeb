@@ -434,7 +434,7 @@
     height: 160px;
     word-wrap: all;
     resize: none;
-    font-family: Helvetica, Verdana, Geneva, sans-serif;
+    font-family: Montserrat, Helvetica, Verdana, Geneva, sans-serif;
   }
   #contactName {
     border-radius: calc(var(--radiusLandscape) - 15px) 0 0 0;
