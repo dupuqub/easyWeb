@@ -501,9 +501,9 @@
     width: 50%;
     height: 100%;
     margin-right: 5vw;
-    background-position: right;
+    background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: auto 90%;
   }
   #signup {
     width: 50%;
