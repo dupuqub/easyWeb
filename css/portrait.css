@@ -132,21 +132,20 @@
   .imgCrslFrm {
     width: 80%;
     height: 100%;
-    background-position: center;
-    background-size: cover;
-    border-radius: var(--radiusPortrait) 0 var(--radiusPortrait) 0;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
   }
   .txtCrslFrm {
     width: 40%;
     height: 100%;
-    background: var(--cherry);
-    color: white;
+    background: white;
+    color: var(--cherry);
     font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 40px 0 40px;
-    border-radius: var(--radiusPortrait) 0 var(--radiusPortrait) 0;
   }
 
   /*..................................................................................................................*/
@@ -592,11 +591,11 @@
   #btnSocial1 {background-image: url("../images/facebook.png")}
   #btnSocial2 {background-image: url("../images/instagram.png")}
 
-  #imgCrslFrm0 {background-image: url("../images/carousel0.jpg")}
-  #imgCrslFrm1 {background-image: url("../images/carousel1.jpg")}
-  #imgCrslFrm2 {background-image: url("../images/carousel2.jpg")}
-  #imgCrslFrm3 {background-image: url("../images/carousel3.jpg")}
-  #imgCrslFrm4 {background-image: url("../images/carousel4.jpg")}
+  #imgCrslFrm0 {background-image: url("../images/portrait/carousel0.png")}
+  #imgCrslFrm1 {background-image: url("../images/portrait/carousel1.png")}
+  #imgCrslFrm2 {background-image: url("../images/portrait/carousel2.png")}
+  #imgCrslFrm3 {background-image: url("../images/portrait/carousel3.png")}
+  #imgCrslFrm4 {background-image: url("../images/portrait/carousel4.png")}
 
   #about {background-image: url("../images/aboutBack.png")}
 
