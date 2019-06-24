@@ -136,8 +136,8 @@
     display: flex;
   }
   .imgCrslFrm {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 90%;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -577,11 +577,11 @@
   #btnSocial1 {background-image: url("../images/facebook.png")}
   #btnSocial2 {background-image: url("../images/instagram.png")}
 
-  #imgCrslFrm0 {background-image: url("../images/landscape/carousel0.png")}
-  #imgCrslFrm1 {background-image: url("../images/landscape/carousel1.png")}
-  #imgCrslFrm2 {background-image: url("../images/landscape/carousel2.png")}
-  #imgCrslFrm3 {background-image: url("../images/landscape/carousel3.png")}
-  #imgCrslFrm4 {background-image: url("../images/landscape/carousel4.png")}
+  #imgCrslFrm0 {background-image: url("../images/landscape/carousel0.jpg")}
+  #imgCrslFrm1 {background-image: url("../images/landscape/carousel1.jpg")}
+  #imgCrslFrm2 {background-image: url("../images/landscape/carousel2.jpg")}
+  #imgCrslFrm3 {background-image: url("../images/landscape/carousel3.jpg")}
+  #imgCrslFrm4 {background-image: url("../images/landscape/carousel4.jpg")}
 
   #about {background-image: url("../images/landscape/aboutBack.jpg")}
 
