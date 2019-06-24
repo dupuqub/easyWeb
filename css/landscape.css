@@ -584,41 +584,41 @@
 
   #about {background-image: url("../images/landscape/aboutBack.jpg")}
 
-  #accordion {background-image: url("../images/accordionBack.jpg")}
-  #accordionPart0 {background-image: url("../images/accordion0.jpg")}
-  #accordionPart1 {background-image: url("../images/accordion1.jpg")}
-  #accordionPart2 {background-image: url("../images/accordion2.jpg")}
-  #accordionPart3 {background-image: url("../images/accordion3.jpg")}
-  #accordionPart4 {background-image: url("../images/accordion4.jpg")}
-  #accordionPart5 {background-image: url("../images/accordion5.jpg")}
-  #accordionPart6 {background-image: url("../images/accordion6.jpg")}
-  #accordionPart7 {background-image: url("../images/accordion7.jpg")}
+  #accordion {background-image: url("../images/landscape/accordionBack.jpg")}
+  #accordionPart0 {background-image: url("../images/landscape/accordion0.jpg")}
+  #accordionPart1 {background-image: url("../images/landscape/accordion1.jpg")}
+  #accordionPart2 {background-image: url("../images/landscape/accordion2.jpg")}
+  #accordionPart3 {background-image: url("../images/landscape/accordion3.jpg")}
+  #accordionPart4 {background-image: url("../images/landscape/accordion4.jpg")}
+  #accordionPart5 {background-image: url("../images/landscape/accordion5.jpg")}
+  #accordionPart6 {background-image: url("../images/landscape/accordion6.jpg")}
+  #accordionPart7 {background-image: url("../images/landscape/accordion7.jpg")}
 
-  #industry {background-image: url("../images/industryBack.jpg")}
-  #indCrslFrm0 {background-image: url("../images/industry0.jpg")}
-  #indCrslFrm1 {background-image: url("../images/industry1.jpg")}
-  #indCrslFrm2 {background-image: url("../images/industry2.jpg")}
-  #indCrslFrm3 {background-image: url("../images/industry3.jpg")}
+  #industry {background-image: url("../images/landscape/industryBack.jpg")}
+  #indCrslFrm0 {background-image: url("../images/landscape/industry0.jpg")}
+  #indCrslFrm1 {background-image: url("../images/landscape/industry1.jpg")}
+  #indCrslFrm2 {background-image: url("../images/landscape/industry2.jpg")}
+  #indCrslFrm3 {background-image: url("../images/landscape/industry3.jpg")}
 
-  #clients {background-image: url("../images/clientBack.jpg")}
-  #client0 {background-image: url("../images/client0.jpg")}
-  #client1 {background-image: url("../images/client1.jpg")}
-  #client2 {background-image: url("../images/client2.jpg")}
-  #client3 {background-image: url("../images/client3.jpg")}
-  #client4 {background-image: url("../images/client4.jpg")}
-  #client5 {background-image: url("../images/client5.jpg")}
-  #client6 {background-image: url("../images/client6.jpg")}
-  #client7 {background-image: url("../images/client7.jpg")}
-  #client8 {background-image: url("../images/client8.jpg")}
-  #client0Logo {background-image: url("../images/client0Logo.png")}
-  #client1Logo {background-image: url("../images/client1Logo.png")}
-  #client2Logo {background-image: url("../images/client2Logo.png")}
-  #client3Logo {background-image: url("../images/client3Logo.png")}
-  #client4Logo {background-image: url("../images/client4Logo.png")}
-  #client5Logo {background-image: url("../images/client5Logo.png")}
-  #client6Logo {background-image: url("../images/client6Logo.png")}
-  #client7Logo {background-image: url("../images/client7Logo.png")}
-  #client8Logo {background-image: url("../images/client8Logo.png")}
+  #clients {background-image: url("../images/landscape/clientsBack.jpg")}
+  #client0 {background-image: url("../images/landscape/client0.jpg")}
+  #client1 {background-image: url("../images/landscape/client1.jpg")}
+  #client2 {background-image: url("../images/landscape/client2.jpg")}
+  #client3 {background-image: url("../images/landscape/client3.jpg")}
+  #client4 {background-image: url("../images/landscape/client4.jpg")}
+  #client5 {background-image: url("../images/landscape/client5.jpg")}
+  #client6 {background-image: url("../images/landscape/client6.jpg")}
+  #client7 {background-image: url("../images/landscape/client7.jpg")}
+  #client8 {background-image: url("../images/landscape/client8.jpg")}
+  #client0Logo {background-image: url("../images/landscape/client0Logo.png")}
+  #client1Logo {background-image: url("../images/landscape/client1Logo.png")}
+  #client2Logo {background-image: url("../images/landscape/client2Logo.png")}
+  #client3Logo {background-image: url("../images/landscape/client3Logo.png")}
+  #client4Logo {background-image: url("../images/landscape/client4Logo.png")}
+  #client5Logo {background-image: url("../images/landscape/client5Logo.png")}
+  #client6Logo {background-image: url("../images/landscape/client6Logo.png")}
+  #client7Logo {background-image: url("../images/landscape/client7Logo.png")}
+  #client8Logo {background-image: url("../images/landscape/client8Logo.png")}
 
   #phoneIcon {background-image: url("../images/phone.png")}
   #whatsappIcon {background-image: url("../images/whatsapp.png")}
