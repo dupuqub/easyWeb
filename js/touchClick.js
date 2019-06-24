@@ -11,7 +11,7 @@ touchClick = event => {
 
   //....................................................................................................................
   // TOP
-  if(event.target.id === `top`) {
+  if(event.target.id === `top` || event.target.id === `topArrow`) {
     $([document.documentElement, document.body]).animate({
       scrollTop: $(`#header`).offset().top
     }, 500)
