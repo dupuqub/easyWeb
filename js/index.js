@@ -44,10 +44,10 @@ const loop = () => {
 //......................................................................................................................
 const start = () => {
   if(iOS()) {
-    get(`#about`).style.backgroundAttachment = `scroll`
     get(`#accordion`).style.backgroundAttachment = `scroll`
     get(`#industry`).style.backgroundAttachment = `scroll`
     get(`#clients`).style.backgroundAttachment = `scroll`
+    get(`#about`).style.backgroundAttachment = `scroll`
   }
   setTimeout(() => carouselSpin = true, 1000)
   loop()
