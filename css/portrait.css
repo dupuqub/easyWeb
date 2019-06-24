@@ -349,7 +349,7 @@
     transition: var(--transitCommon);
     position: absolute;
     opacity: 0;
-    white-space:nowrap;
+    white-space: nowrap;
   }
   .clientLogoBox:active {
     background: rgba(0,0,0,0);
