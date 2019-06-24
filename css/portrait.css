@@ -201,6 +201,10 @@
     align-items: center;
     justify-content: center;
   }
+  #accordionPart5,
+  #accordionPart6 {
+    background-position: top;
+  }
   .accordionPart {
     width: 100%;
     height: 10%;

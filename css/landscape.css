@@ -195,7 +195,7 @@
     background-attachment: fixed;
   }
   #accordionBox {
-    width: 80%;
+    width: 70%;
     height: 80%;
   }
   #accordionTitle {
@@ -206,6 +206,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  #accordionPart5,
+  #accordionPart6 {
+    background-position: top;
   }
   .accordionPart {
     width: 100%;
@@ -255,13 +259,13 @@
     justify-content: center;
   }
   #industryCarousel {
-    width: 80%;
+    width: 70%;
     height: 50%;
     display: flex;
     overflow-x: hidden;
   }
   #industryVignette {
-    width: 80%;
+    width: 70%;
     height: 50%;
     position: absolute;
     box-shadow: 0 0 30px 0 inset;
