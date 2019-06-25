@@ -78,7 +78,7 @@
     justify-content: center;
     border: 10px solid white;
     box-sizing: border-box;
-    background: var(--cherry);
+    background: var(--diva-pink);
     cursor: pointer;
   }
   .btnSocial {
@@ -121,7 +121,7 @@
     float: right;
     background-size: contain;
     background-position: center;
-    background-color: var(--cherry);
+    background-color: var(--diva-pink);
     transform: translate(3vh, 3vh);
     display: flex;
     align-items: center;
@@ -158,8 +158,8 @@
   .txtCrslFrm {
     width: 45%;
     height: 90%;
-    background: white;
-    color: var(--cherry);
+    background: var(--diva-pink);
+    color: white;
     font-weight: bold;
     display: flex;
     align-items: center;

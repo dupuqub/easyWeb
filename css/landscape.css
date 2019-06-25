@@ -70,12 +70,12 @@
     cursor: pointer;
   }
   .btnMenu:hover {
-    color: var(--cherry);
+    color: var(--diva-pink);
   }
   .btnMenuUnder {
     width: 0;
     height: 3px;
-    background: var(--cherry);
+    background: var(--diva-pink);
     transition: var(--transitCommon);
   }
   .btnMenu:hover .btnMenuUnder {
@@ -127,7 +127,7 @@
     float: right;
     background-size: contain;
     background-position: center;
-    background-color: var(--cherry);
+    background-color: var(--diva-pink);
     transform: translate(5vh, 5vh);
     display: flex;
     align-items: center;
@@ -160,10 +160,10 @@
     background-size: cover;
   }
   .txtCrslFrm {
-    width: 40%;
-    height: 100%;
-    background: white;
-    color: var(--cherry);
+    width: 30%;
+    height: 80%;
+    background: var(--diva-pink);
+    color: white;
     font-weight: bold;
     display: flex;
     align-items: center;
