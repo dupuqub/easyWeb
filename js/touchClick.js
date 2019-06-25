@@ -10,13 +10,6 @@ touchClick = event => {
   Array.from(getAll(`.accordionText`)).map((item, index) => item.style.height = `95%`)
 
   //....................................................................................................................
-  // SOCIAL
-
-  if(event.target.id === `btnSocial2`) {
-    window.open(`https://instagram.com/easy.b2c`, `_blank`)
-  }
-
-  //....................................................................................................................
   // TOP
 
   if(event.target.id === `top` || event.target.id === `topArrow`) {
