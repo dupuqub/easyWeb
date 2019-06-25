@@ -11,9 +11,9 @@ const iOS = () => {
     'iPod',
   ]
 
-  if (!!navigator.platform) {
-    while (iDevices.length) {
-      if (navigator.platform === iDevices.pop()){
+  if(!!navigator.platform) {
+    while(iDevices.length) {
+      if(navigator.platform === iDevices.pop()){
         return true
       }
     }
