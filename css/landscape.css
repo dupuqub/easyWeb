@@ -561,6 +561,8 @@
     align-items: center;
     background: darkorange;
     padding: 0 20px 0 20px;
+    cursor: pointer;
+    transition: var(--transitCommon);
   }
   #signupConfirm:hover {
     background: orange;
@@ -571,6 +573,17 @@
     background-size: auto 80%;
     background-position: center right;
     background-repeat: no-repeat;
+  }
+  #newsWIP {
+    width: 420px;
+    height: 70px;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    background: darkorange;
+    padding: 0 20px 0 20px;
+    margin-top: 50px;
   }
 
   /*..................................................................................................................*/

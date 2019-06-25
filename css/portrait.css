@@ -578,8 +578,6 @@
     align-items: center;
     background: darkorange;
     padding: 0 20px 0 20px;
-    cursor: pointer;
-    transition: var(--transitCommon);
   }
   #signupImage {
     width: 100%;
@@ -587,6 +585,17 @@
     background-size: auto 80%;
     background-position: center right;
     background-repeat: no-repeat;
+  }
+  #newsWIP {
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    background: darkorange;
+    padding: 0 20px 0 20px;
+    margin-top: 30px;
   }
 
   /*..................................................................................................................*/
