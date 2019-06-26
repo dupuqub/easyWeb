@@ -413,7 +413,7 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 30px;
     background: white;
     border-radius: var(--radiusPortrait);
   }
