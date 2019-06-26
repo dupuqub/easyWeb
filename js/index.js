@@ -49,6 +49,7 @@ const start = () => {
     get(`#clients`).style.backgroundAttachment = `scroll`
     get(`#about`).style.backgroundAttachment = `scroll`
   }
+  window.history.scrollRestoration = `manual`
   setTimeout(() => carouselSpin = true, 1000)
   loop()
 }
@@ -60,5 +61,6 @@ $(function() {
   $.scrollify({
     section : ".section",
     setHeights: false,
+    updateHash: false,
   })
 })
