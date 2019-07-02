@@ -224,7 +224,6 @@
     align-items: center;
     justify-content: center;
   }
-  #accordionPart5,
   #accordionPart6 {
     background-position: top;
   }
@@ -325,13 +324,13 @@
   }
   #clientBox {
     width: 920px;
-    height: 920px;
+    height: 1330px;
     margin-bottom: 200px;
   }
-  #client0, #client1, #client3, #client4, #client6, #client7 {
+  #client0, #client1, #client3, #client4, #client6, #client7, #client9, #client10 {
     margin-right: 10px;
   } 
-  #client0, #client1, #client2, #client3, #client4, #client5 {
+  #client0, #client1, #client2, #client3, #client4, #client5, #client6, #client7 {
     margin-bottom: 10px;
   } 
   .client {
@@ -577,6 +576,10 @@
   #client6 {background-image: url("../images/landscape/client6.jpg")}
   #client7 {background-image: url("../images/landscape/client7.jpg")}
   #client8 {background-image: url("../images/landscape/client8.jpg")}
+  #client9 {background-image: url("../images/landscape/client9.jpg")}
+  #client10 {background-image: url("../images/landscape/client10.jpg")}
+  #client11 {background-image: url("../images/landscape/client11.jpg")}
+
   #client0Logo {background-image: url("../images/landscape/client0Logo.png")}
   #client1Logo {background-image: url("../images/landscape/client1Logo.png")}
   #client2Logo {background-image: url("../images/landscape/client2Logo.png")}
@@ -586,6 +589,9 @@
   #client6Logo {background-image: url("../images/landscape/client6Logo.png")}
   #client7Logo {background-image: url("../images/landscape/client7Logo.png")}
   #client8Logo {background-image: url("../images/landscape/client8Logo.png")}
+  #client9Logo {background-image: url("../images/landscape/client9Logo.png")}
+  #client10Logo {background-image: url("../images/landscape/client10Logo.png")}
+  #client11Logo {background-image: url("../images/landscape/client11Logo.png")}
 
   #contactIcon0 {background-image: url("../images/contactIcon0.png")}
   #contactIcon1 {background-image: url("../images/contactIcon1.png")}
