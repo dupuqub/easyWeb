@@ -224,6 +224,14 @@
     align-items: center;
     justify-content: center;
   }
+  #accordionGallery {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+    display: none;
+    position: absolute;
+    transition: var(--transitCommon);
+  }
   #accordionPart6 {
     background-position: top;
   }
@@ -237,7 +245,7 @@
   }
   .accordionText {
     width: 100%;
-    height: 95%;
+    height: 100%;
     color: white;
     font-size: 25px;
     display: flex;
@@ -324,22 +332,49 @@
   }
   #clientBox {
     width: 920px;
-    height: 1330px;
+    height: 1810px;
     margin-bottom: 200px;
   }
-  #client0, #client1, #client3, #client4, #client6, #client7, #client9, #client10 {
+  #client0,
+  #client1,
+  #client3,
+  #client4,
+  #client6,
+  #client7,
+  #client9,
+  #client10,
+  #client12,
+  #client13,
+  #client15,
+  #client16 {
     margin-right: 10px;
-  } 
-  #client0, #client1, #client2, #client3, #client4, #client5, #client6, #client7 {
+  }
+  #client0,
+  #client1,
+  #client2,
+  #client3,
+  #client4,
+  #client5,
+  #client6,
+  #client7,
+  #client8,
+  #client9,
+  #client10,
+  #client11,
+  #client12,
+  #client13,
+  #client14,
+  #client15,
+  #client16,
+  #client17 {
     margin-bottom: 10px;
-  } 
+  }
   .client {
     width: 300px;
     height: 300px;
     float: left;
     background-size: cover;
     background-position: center;
-    cursor: pointer;
   }
   .clientLogoBox {
     width: 100%;
@@ -374,16 +409,6 @@
     position: absolute;
     opacity: 0;
     white-space: nowrap;
-  }
-  .clientLogoBox:hover {
-    background: rgba(0,0,0,0);
-  }
-  .clientLogoBox:hover .clientLogo {
-    opacity: 0;
-  }
-  .clientLogoBox:hover .clientName {
-    opacity: 1;
-    width: 300px;
   }
 
   /*..................................................................................................................*/
