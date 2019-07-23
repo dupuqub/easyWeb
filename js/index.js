@@ -17,18 +17,18 @@ onclick = event => touchClick(event)
 ontouchstart = event => touchClick(event)
 
 //......................................................................................................................
-let counter = 180
+let counter = 300
 let carouselSpin = false
 const carouselSpinner = () => {
-  if(counter === 180) {
+  if(counter === 300) {
     moveCarousel(`crslNext0`, `.imgCrslBox`)
     moveCarousel(`crslNext2`, `.indCrslBox`)
   }
-  else if(counter === 160) {
+  else if(counter === 280) {
     moveCarousel(`crslNext1`, `.txtCrslBox`)
   }
 
-  if(counter < 0) counter = 180
+  if(counter < 0) counter = 300
   else counter --
 }
 
@@ -50,7 +50,7 @@ const start = () => {
     get(`#about`).style.backgroundAttachment = `scroll`
   }
   window.history.scrollRestoration = `manual`
-  setTimeout(() => carouselSpin = true, 1000)
+  setTimeout(() => carouselSpin = true, 3000)
   loop()
 }
 //......................................................................................................................
