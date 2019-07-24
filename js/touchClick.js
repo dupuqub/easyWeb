@@ -37,6 +37,11 @@ touchClick = event => {
     const gallery = get(`#gallery`)
     gallery.style.display = `flex`
     setTimeout(() => gallery.style.background = `rgba(0,0,0,0.8)`, 100)
+
+    const index = Number(event.target.id.substring(13))
+    const box = get(`#galleryBox${index}`)
+    Array.from(getAll(`.galleryBox`)).map(item => item.style.display = `none`)
+    box.style.display = `block`
   }
 
   //....................................................................................................................
@@ -58,9 +63,13 @@ touchClick = event => {
   //....................................................................................................................
   // ACCORDION . part 4 (hide gallery)
 
-  else if(event.target.id === `gallery`) {
+  else if(event.target.id === `gallery`
+  || event.target.id === `galleryEmpty`
+  || event.target.classList.contains(`galleryBox`)) {
     const gallery = get(`#gallery`)
     gallery.style.background = `rgba(0,0,0,0.0)`
-    setTimeout(() => gallery.style.display = `none`, 100)    
+    setTimeout(() => gallery.style.display = `none`, 100)
+
+    // hide correct galleryBox
   }
 }
