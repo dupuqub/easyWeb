@@ -69,7 +69,9 @@ touchClick = event => {
     const gallery = get(`#gallery`)
     gallery.style.background = `rgba(0,0,0,0.0)`
     setTimeout(() => gallery.style.display = `none`, 100)
+  }
 
-    // hide correct galleryBox
+  else if(event.target.classList.contains(`galleryPart`)) {
+    console.log(`ok`)
   }
 }
