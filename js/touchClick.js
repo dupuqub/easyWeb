@@ -34,7 +34,7 @@ touchClick = event => {
 
   else if(event.target.classList.contains(`accordionPart`)
   && !event.target.classList.contains(`accordionText`)) {
-    const gallery = get(`#accordionGallery`)
+    const gallery = get(`#gallery`)
     gallery.style.display = `flex`
     setTimeout(() => gallery.style.background = `rgba(0,0,0,0.8)`, 100)
   }
@@ -58,8 +58,8 @@ touchClick = event => {
   //....................................................................................................................
   // ACCORDION . part 4 (hide gallery)
 
-  else if(event.target.id === `accordionGallery`) {
-    const gallery = get(`#accordionGallery`)
+  else if(event.target.id === `gallery`) {
+    const gallery = get(`#gallery`)
     gallery.style.background = `rgba(0,0,0,0.0)`
     setTimeout(() => gallery.style.display = `none`, 100)    
   }
