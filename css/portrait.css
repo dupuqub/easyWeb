@@ -273,9 +273,10 @@
     height: 100%;
     display: none;
     position: absolute;
-    background: darkorange;
-    background: rgba(0,0,0,0);
     transition: var(--transitCommon);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
   }
   .galleryBox {
     width: 620px;

@@ -75,7 +75,7 @@ touchClick = event => {
   else if(event.target.classList.contains(`galleryPart`)) {
     const star = get(`#galleryStar`)
     star.style.display = `flex`
-    setTimeout(() => star.style.background = `rgba(0,0,0,0.8)`, 100)
+    setTimeout(() => star.style.opacity = 1, 100)
   }
 
   //....................................................................................................................
@@ -83,7 +83,7 @@ touchClick = event => {
 
   else if(event.target.id === `galleryStar`) {
     const star = get(`#galleryStar`)
-    star.style.background = `rgba(0,0,0,0.0)`
+    star.style.opacity = 0
     setTimeout(() => star.style.display = `none`, 100)
   }
 }

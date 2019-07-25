@@ -16,3 +16,4 @@ html, body {
   --radiusPortrait: 50px;
   --radiusLandscape: 40px;
 }
+#galleryStar{background-image: url("../images/whale.jpg")}
