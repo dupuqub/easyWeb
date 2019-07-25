@@ -4,7 +4,7 @@
 touchClick = event => {
 
   //....................................................................................................................
-  // ACCORDION . part 1
+  // ACCORDION . part 1 (close every part)
 
   Array.from(getAll(`.accordionPart`)).map((item, index) => item.style.height = `10%`)
   Array.from(getAll(`.accordionText`)).map((item, index) => item.style.height = `100%`)
@@ -21,7 +21,7 @@ touchClick = event => {
   //....................................................................................................................
   // HEADER MENU
 
-  if(event.target.classList.contains(`btnMenu`)) {
+  else if(event.target.classList.contains(`btnMenu`)) {
     const areas = [`about`, `accordion`, `industry`, `clients`, `contact`, `newsletter`]
     const clicked = Number(event.target.id.substring(7))
     $([document.documentElement, document.body]).animate({
@@ -30,25 +30,9 @@ touchClick = event => {
   }
 
   //....................................................................................................................
-  // ACCORDION . part 2 (show gallery)
+  // ACCORDION . part 2 (open a part)
 
-  else if(event.target.classList.contains(`accordionPart`)
-  && !event.target.classList.contains(`accordionText`)) {
-    const gallery = get(`#gallery`)
-    gallery.style.display = `flex`
-    setTimeout(() => gallery.style.background = `rgba(0,0,0,0.8)`, 100)
-
-    const index = Number(event.target.id.substring(13))
-    const box = get(`#galleryBox${index}`)
-    Array.from(getAll(`.galleryBox`)).map(item => item.style.display = `none`)
-    box.style.display = `block`
-  }
-
-  //....................................................................................................................
-  // ACCORDION . part 3
-
-  else if(event.target.classList.contains(`accordionPart`)
-  || event.target.classList.contains(`accordionText`)) {
+  else if(event.target.classList.contains(`accordionText`)) {
     const clicked = Number(event.target.id.substring(13))
     Array.from(getAll(`.accordionPart`)).map((item, index) => {
       if(index === clicked) item.style.height = `45%`
@@ -58,6 +42,20 @@ touchClick = event => {
       if(index === clicked) item.style.height = `15%`
       else item.style.height = `100%`
     })
+  }
+
+  //....................................................................................................................
+  // ACCORDION . part 3 (show gallery)
+
+  else if(event.target.classList.contains(`accordionPart`)) {
+    const gallery = get(`#gallery`)
+    gallery.style.display = `flex`
+    setTimeout(() => gallery.style.background = `rgba(0,0,0,0.8)`, 100)
+
+    const index = Number(event.target.id.substring(13))
+    const box = get(`#galleryBox${index}`)
+    Array.from(getAll(`.galleryBox`)).map(item => item.style.display = `none`)
+    box.style.display = `block`
   }
 
   //....................................................................................................................
@@ -71,7 +69,21 @@ touchClick = event => {
     setTimeout(() => gallery.style.display = `none`, 100)
   }
 
+  //....................................................................................................................
+  // ACCORDION . part 5 (show star)
+
   else if(event.target.classList.contains(`galleryPart`)) {
-    console.log(`ok`)
+    const star = get(`#galleryStar`)
+    star.style.display = `flex`
+    setTimeout(() => star.style.background = `rgba(0,0,0,0.8)`, 100)
+  }
+
+  //....................................................................................................................
+  // ACCORDION . part 6 (hide star)
+
+  else if(event.target.id === `galleryStar`) {
+    const star = get(`#galleryStar`)
+    star.style.background = `rgba(0,0,0,0.0)`
+    setTimeout(() => star.style.display = `none`, 100)
   }
 }
