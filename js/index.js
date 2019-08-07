@@ -51,6 +51,7 @@ const carouselSpinner = () => {
 
 //......................................................................................................................
 const loop = () => {
+  // if scrolled, display "top" button
   get(`#top`).style.height = window.pageYOffset ? (window.innerHeight > window.innerWidth ? `70px` : `50px`) : `0`
 
   if(carouselSpin) carouselSpinner()
