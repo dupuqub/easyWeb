@@ -15,6 +15,23 @@ const state = {
 //......................................................................................................................
 onclick = event => touchClick(event)
 ontouchstart = event => touchClick(event)
+onkeydown = event => {
+  if(event.key === `Escape`) {
+
+    // hide gallery
+    const gallery = get(`#gallery`)
+    gallery.style.background = `rgba(0,0,0,0.0)`
+    setTimeout(() => gallery.style.display = `none`, 100)
+
+    // hide star
+    setTimeout(() =>
+    {
+      const star = get(`#galleryStar`)
+      star.style.opacity = 0
+      setTimeout(() => star.style.display = `none`, 100)
+    }, 100)
+  }
+}
 
 //......................................................................................................................
 let counter = 300
