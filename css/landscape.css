@@ -227,6 +227,9 @@
   #accordionPart6 {
     background-position: top;
   }
+  #accordionPart2 {
+    background-position: bottom;
+  }
   .accordionPart {
     width: 100%;
     height: 10%;
