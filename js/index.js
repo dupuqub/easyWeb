@@ -18,18 +18,23 @@ ontouchstart = event => touchClick(event)
 onkeydown = event => {
   if(event.key === `Escape`) {
 
-    // hide gallery
-    const gallery = get(`#gallery`)
-    gallery.style.opacity = 0
-    setTimeout(() => gallery.style.display = `none`, 100)
+    const star = get(`#galleryStar`)
+
+    console.log(star.style.opacity)
 
     // hide star
-    setTimeout(() =>
-    {
-      const star = get(`#galleryStar`)
+    if(Number(star.style.opacity)) {
       star.style.opacity = 0
       setTimeout(() => star.style.display = `none`, 100)
-    }, 100)
+      console.log(`ok`)
+    }
+
+    // hide gallery
+    else {
+      const gallery = get(`#gallery`)
+      gallery.style.opacity = 0
+      setTimeout(() => gallery.style.display = `none`, 100)
+    }
   }
 }
 
