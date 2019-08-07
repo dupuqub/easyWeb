@@ -20,7 +20,7 @@ onkeydown = event => {
 
     // hide gallery
     const gallery = get(`#gallery`)
-    gallery.style.background = `rgba(0,0,0,0.0)`
+    gallery.style.opacity = 0
     setTimeout(() => gallery.style.display = `none`, 100)
 
     // hide star

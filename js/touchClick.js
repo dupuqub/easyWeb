@@ -50,7 +50,7 @@ touchClick = event => {
   else if(event.target.classList.contains(`accordionPart`)) {
     const gallery = get(`#gallery`)
     gallery.style.display = `flex`
-    setTimeout(() => gallery.style.background = `rgba(0,0,0,0.8)`, 100)
+    setTimeout(() => gallery.style.opacity = 1, 100)
 
     const index = Number(event.target.id.substring(13))
     const box = get(`#galleryBox${index}`)
@@ -65,7 +65,7 @@ touchClick = event => {
   || event.target.id === `galleryEmpty`
   || event.target.classList.contains(`galleryBox`)) {
     const gallery = get(`#gallery`)
-    gallery.style.background = `rgba(0,0,0,0.0)`
+    gallery.style.opacity = 0
     setTimeout(() => gallery.style.display = `none`, 100)
   }
 
@@ -74,7 +74,9 @@ touchClick = event => {
 
   else if(event.target.classList.contains(`galleryPart`)) {
     const star = get(`#galleryStar`)
+    const chosen = event.target.id.substring(11)
     star.style.display = `flex`
+    star.style.backgroundImage = `url("images/gallery/galleryStar${chosen}.jpg")`
     setTimeout(() => star.style.opacity = 1, 100)
   }
 

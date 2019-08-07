@@ -254,51 +254,9 @@
   /*..................................................................................................................*/
   /* GALLERY */
 
-  #gallery {
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0);
-    display: none;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    transition: var(--transitCommon);
-  }
-  #galleryEmpty {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    font-size: 60px;
-  }
-  #galleryStar {
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: absolute;
-    transition: var(--transitCommon);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-  }
   .galleryBox {
     width: 930px;
     height: 620px;
-  }
-  .galleryPart {
-    width: 300px;
-    height: 300px;
-    float: left;
-    background: white;
-    margin: 0 10px 10px 0;
-    transition: var(--transitCommon);
-    animation: appear 0.5s;
-  }
-  @keyframes appear {
-    from{background: rgba(255,255,255,0)}
-    to{background: rgba(255,255,255,1)}
   }
 
   /*..................................................................................................................*/
@@ -623,52 +581,6 @@
   #accordionPart5 {background-image: url("../images/landscape/accordion5.jpg")}
   #accordionPart6 {background-image: url("../images/landscape/accordion6.jpg")}
   #accordionPart7 {background-image: url("../images/landscape/accordion7.jpg")}
-
-  #galleryPart00 {background-image: url("../images/landscape/gallery00.jpg")}
-  #galleryPart01 {background-image: url("../images/landscape/gallery01.jpg")}
-  #galleryPart02 {background-image: url("../images/landscape/gallery02.jpg")}
-
-  #galleryPart10 {background-image: url("../images/landscape/gallery10.jpg")}
-  #galleryPart11 {background-image: url("../images/landscape/gallery11.jpg")}
-  #galleryPart12 {background-image: url("../images/landscape/gallery12.jpg")}
-  #galleryPart13 {background-image: url("../images/landscape/gallery13.jpg")}
-  #galleryPart14 {background-image: url("../images/landscape/gallery14.jpg")}
-  #galleryPart15 {background-image: url("../images/landscape/gallery15.jpg")}
-
-  #galleryPart20 {background-image: url("../images/landscape/gallery20.jpg")}
-  #galleryPart21 {background-image: url("../images/landscape/gallery21.jpg")}
-  #galleryPart22 {background-image: url("../images/landscape/gallery22.jpg")}
-  #galleryPart23 {background-image: url("../images/landscape/gallery23.jpg")}
-  #galleryPart24 {background-image: url("../images/landscape/gallery24.jpg")}
-  #galleryPart25 {background-image: url("../images/landscape/gallery25.jpg")}
-
-  #galleryPart30 {background-image: url("../images/landscape/gallery30.jpg")}
-  #galleryPart31 {background-image: url("../images/landscape/gallery31.jpg")}
-  #galleryPart32 {background-image: url("../images/landscape/gallery32.jpg")}
-  #galleryPart33 {background-image: url("../images/landscape/gallery33.jpg")}
-  #galleryPart34 {background-image: url("../images/landscape/gallery34.jpg")}
-  #galleryPart35 {background-image: url("../images/landscape/gallery35.jpg")}
-
-  #galleryPart50 {background-image: url("../images/landscape/gallery50.jpg")}
-  #galleryPart51 {background-image: url("../images/landscape/gallery51.jpg")}
-  #galleryPart52 {background-image: url("../images/landscape/gallery52.jpg")}
-  #galleryPart53 {background-image: url("../images/landscape/gallery53.jpg")}
-  #galleryPart54 {background-image: url("../images/landscape/gallery54.jpg")}
-  #galleryPart55 {background-image: url("../images/landscape/gallery55.jpg")}
-
-  #galleryPart60 {background-image: url("../images/landscape/gallery60.jpg")}
-  #galleryPart61 {background-image: url("../images/landscape/gallery61.jpg")}
-  #galleryPart62 {background-image: url("../images/landscape/gallery62.jpg")}
-  #galleryPart63 {background-image: url("../images/landscape/gallery63.jpg")}
-  #galleryPart64 {background-image: url("../images/landscape/gallery64.jpg")}
-  #galleryPart65 {background-image: url("../images/landscape/gallery65.jpg")}
-
-  #galleryPart70 {background-image: url("../images/landscape/gallery70.jpg")}
-  #galleryPart71 {background-image: url("../images/landscape/gallery71.jpg")}
-  #galleryPart72 {background-image: url("../images/landscape/gallery72.jpg")}
-  #galleryPart73 {background-image: url("../images/landscape/gallery73.jpg")}
-  #galleryPart74 {background-image: url("../images/landscape/gallery74.jpg")}
-  #galleryPart75 {background-image: url("../images/landscape/gallery75.jpg")}
 
   #industry {background-image: url("../images/landscape/industryBack.jpg")}
   #indCrslFrm0 {background-image: url("../images/landscape/industry0.jpg")}
