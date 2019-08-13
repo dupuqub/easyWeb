@@ -10,6 +10,7 @@ const state = {
   crslNext0: 0,
   crslNext1: 0,
   crslNext2: 0,
+  star: null,
 }
 
 //......................................................................................................................
@@ -20,13 +21,10 @@ onkeydown = event => {
 
     const star = get(`#galleryStar`)
 
-    console.log(star.style.opacity)
-
     // hide star
     if(Number(star.style.opacity)) {
       star.style.opacity = 0
       setTimeout(() => star.style.display = `none`, 100)
-      console.log(`ok`)
     }
 
     // hide gallery

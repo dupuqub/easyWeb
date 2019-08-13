@@ -77,6 +77,7 @@ touchClick = event => {
     const chosen = event.target.id.substring(11)
     star.style.display = `flex`
     star.style.backgroundImage = `url("images/gallery/galleryStar${chosen}.jpg")`
+    state.star = chosen
     setTimeout(() => star.style.opacity = 1, 100)
   }
 
@@ -95,7 +96,11 @@ touchClick = event => {
 
   else if(event.target.id === `starZoneL`
   || event.target.id === `starBallL`) {
-    console.log(`left`)
+    const star = get(`#galleryStar`)
+    const a = state.star[0]
+    const b = Number(state.star[1]) > 0 ? Number(state.star[1]) - 1 : 5
+    star.style.backgroundImage = `url("images/gallery/galleryStar${a + b}.jpg")`
+    state.star = a + b
   }
 
   //....................................................................................................................
@@ -103,6 +108,10 @@ touchClick = event => {
 
   else if(event.target.id === `starZoneR`
   || event.target.id === `starBallR`) {
-    console.log(`right`)
+    const star = get(`#galleryStar`)
+    const a = state.star[0]
+    const b = Number(state.star[1]) < 5 ? Number(state.star[1]) + 1 : 0
+    star.style.backgroundImage = `url("images/gallery/galleryStar${a + b}.jpg")`
+    state.star = a + b
   }
 }
