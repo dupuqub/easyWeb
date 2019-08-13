@@ -39,9 +39,6 @@ html, body {
   justify-content: center;
   transition: var(--transitCommon);
 }
-.starSide:hover {
-  background-color: rgba(255,255,255,0.5);
-}
 .starBall {
   width: 100px;
   height: 100px;
