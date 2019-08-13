@@ -51,8 +51,6 @@ html, body {
   background-color: rgba(0,0,0,0.8);
 }
 .galleryPart {
-  width: 30vh;
-  height: 30vh;
   float: left;
   background: white;
   margin: 0 1vh 1vh 0;
