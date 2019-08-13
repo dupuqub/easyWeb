@@ -21,38 +21,36 @@ html, body {
 /* STAR */
 
 #starZoneM {
+  width: 70%;
   display: flex;
   justify-content: center;
 }
-#starZoneR {
-  justify-content: flex-end;
-}
 #starBallM {
   border-radius: 0 0 50% 50%;
-  background-color: rgba(0,0,0,0.5)
 }
 .starZone {
-  width: calc(100% / 3);
   height: 100%;
   cursor: pointer;
 }
 .starSide {
+  width: 15%;
   display: flex;
   align-items: center;
+  justify-content: center;
+  transition: var(--transitCommon);
 }
 .starSide:hover {
-  background-color: rgba(255,255,255,0.2);
-  transition: var(--transitCommon);
+  background-color: rgba(255,255,255,0.5);
 }
 .starBall {
   width: 100px;
   height: 100px;
-  margin: 49px;
-  border-radius: 50%;
   cursor: pointer;
+  border-radius: 50%;
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.5)
 }
 
 #starBallL {background-image: url("../images/starLeft.png")}
@@ -90,7 +88,7 @@ html, body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,1);
 }
 .galleryPart {
   float: left;
@@ -99,11 +97,11 @@ html, body {
   margin: 0 1vh 1vh 0;
   background-size: cover;
   transition: var(--transitCommon);
-  animation: appear 0.5s;
+  animation: appear 1s;
 }
 @keyframes appear {
-  from{background: rgba(255,255,255,0)}
-  to{background: rgba(255,255,255,1)}
+  from{background: rgba(0,0,0,0)}
+  to{background: rgba(0,0,0,1)}
 }
 
 #galleryPart00 {background-image: url("../images/gallery/galleryPart00.jpg")}
