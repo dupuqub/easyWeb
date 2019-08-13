@@ -83,9 +83,26 @@ touchClick = event => {
   //....................................................................................................................
   // ACCORDION . part 6 (hide star)
 
-  else if(event.target.id === `galleryStar`) {
+  else if(event.target.id === `starZoneM`
+  || event.target.id === `starBallM`) {
     const star = get(`#galleryStar`)
     star.style.opacity = 0
     setTimeout(() => star.style.display = `none`, 100)
+  }
+
+  //....................................................................................................................
+  // ACCORDION . part 7 (go to LEFT star)
+
+  else if(event.target.id === `starZoneL`
+  || event.target.id === `starBallL`) {
+    console.log(`left`)
+  }
+
+  //....................................................................................................................
+  // ACCORDION . part 8 (go to RIGHT star)
+
+  else if(event.target.id === `starZoneR`
+  || event.target.id === `starBallR`) {
+    console.log(`right`)
   }
 }

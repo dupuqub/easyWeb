@@ -18,6 +18,48 @@ html, body {
 }
 
 /*....................................................................................................................*/
+/* STAR */
+
+#starZoneM {
+  display: flex;
+  justify-content: center;
+}
+#starZoneR {
+  justify-content: flex-end;
+}
+#starBallM {
+  border-radius: 0 0 50% 50%;
+  background-color: rgba(0,0,0,0.5)
+}
+.starZone {
+  width: calc(100% / 3);
+  height: 100%;
+  cursor: pointer;
+}
+.starSide {
+  display: flex;
+  align-items: center;
+}
+.starSide:hover {
+  background-color: rgba(255,255,255,0.2);
+  transition: var(--transitCommon);
+}
+.starBall {
+  width: 100px;
+  height: 100px;
+  margin: 49px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#starBallL {background-image: url("../images/starLeft.png")}
+#starBallM {background-image: url("../images/starExit.png")}
+#starBallR {background-image: url("../images/starRight.png")}
+
+/*....................................................................................................................*/
 /* GALLERY */
 
 #gallery {
@@ -52,6 +94,7 @@ html, body {
 }
 .galleryPart {
   float: left;
+  cursor: pointer;
   background: white;
   margin: 0 1vh 1vh 0;
   background-size: cover;
