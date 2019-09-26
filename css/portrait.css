@@ -326,7 +326,7 @@
     background-position: center;
     background-attachment: fixed;
   }
-  #clientTitle {
+  #clientsTitle {
     width: 100%;
     height: var(--titleHeight);
     font-size: var(--titleFontSize);
@@ -336,10 +336,14 @@
     justify-content: center;
     margin-top: 100px;
   }
-  #clientBox {
+  #clientsBox {
     width: 90%;
     height: 60%;
-    background-color: orange;
+    background-color: rgba(255,255,255,0.1);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: var(--radiusPortrait);
   }
 
   /*..................................................................................................................*/
@@ -518,39 +522,7 @@
   #indCrslFrm6 {background-image: url("../images/portrait/industry6.jpg")}
 
   #clients {background-image: url("../images/portrait/clientsBack.jpg")}
-  #client0 {background-image: url("../images/portrait/client0.jpg")}
-  #client1 {background-image: url("../images/portrait/client1.jpg")}
-  #client2 {background-image: url("../images/portrait/client2.jpg")}
-  #client3 {background-image: url("../images/portrait/client3.jpg")}
-  #client4 {background-image: url("../images/portrait/client4.jpg")}
-  #client5 {background-image: url("../images/portrait/client5.jpg")}
-  #client6 {background-image: url("../images/portrait/client6.jpg")}
-  #client7 {background-image: url("../images/portrait/client7.jpg")}
-  #client8 {background-image: url("../images/portrait/client8.jpg")}
-  #client9 {background-image: url("../images/portrait/client9.jpg")}
-  #client10 {background-image: url("../images/portrait/client10.jpg")}
-  #client11 {background-image: url("../images/portrait/client11.jpg")}
-  #client12 {background-image: url("../images/portrait/client12.jpg")}
-  #client13 {background-image: url("../images/portrait/client13.jpg")}
-  #client14 {background-image: url("../images/portrait/client14.jpg")}
-  #client15 {background-image: url("../images/portrait/client15.jpg")}
-
-  #client0Logo {background-image: url("../images/portrait/client0Logo.png")}
-  #client1Logo {background-image: url("../images/portrait/client1Logo.png")}
-  #client2Logo {background-image: url("../images/portrait/client2Logo.png")}
-  #client3Logo {background-image: url("../images/portrait/client3Logo.png")}
-  #client4Logo {background-image: url("../images/portrait/client4Logo.png")}
-  #client5Logo {background-image: url("../images/portrait/client5Logo.png")}
-  #client6Logo {background-image: url("../images/portrait/client6Logo.png")}
-  #client7Logo {background-image: url("../images/portrait/client7Logo.png")}
-  #client8Logo {background-image: url("../images/portrait/client8Logo.png")}
-  #client9Logo {background-image: url("../images/portrait/client9Logo.png")}
-  #client10Logo {background-image: url("../images/portrait/client10Logo.png")}
-  #client11Logo {background-image: url("../images/portrait/client11Logo.png")}
-  #client12Logo {background-image: url("../images/portrait/client12Logo.png")}
-  #client13Logo {background-image: url("../images/portrait/client13Logo.png")}
-  #client14Logo {background-image: url("../images/portrait/client14Logo.png")}
-  #client15Logo {background-image: url("../images/portrait/client15Logo.png")}
+  #clientsBox {background-image: url("../images/portrait/clients.png")}
 
   #contactIcon0 {background-image: url("../images/contactIcon0.png")}
   #contactIcon1 {background-image: url("../images/contactIcon1.png")}

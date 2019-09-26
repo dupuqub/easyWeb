@@ -338,7 +338,7 @@
     background-position: center;
     background-attachment: fixed;
   }
-  #clientTitle {
+  #clientsTitle {
     width: 100%;
     height: var(--titleHeight);
     font-size: var(--titleFontSize);
@@ -348,10 +348,14 @@
     justify-content: center;
     margin-top: 100px;
   }
-  #clientBox {
-    width: 90%;
+  #clientsBox {
+    width: 70%;
     height: 60%;
-    background-color: orange;
+    background-color: rgba(255,255,255,0.1);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: var(--radiusLandscape);
   }
 
   /*..................................................................................................................*/
@@ -535,22 +539,7 @@
   #indCrslFrm6 {background-image: url("../images/landscape/industry6.jpg")}
 
   #clients {background-image: url("../images/landscape/clientsBack.jpg")}
-  #client0 {background-image: url("../images/landscape/client0.jpg")}
-  #client1 {background-image: url("../images/landscape/client1.jpg")}
-  #client2 {background-image: url("../images/landscape/client2.jpg")}
-  #client3 {background-image: url("../images/landscape/client3.jpg")}
-  #client4 {background-image: url("../images/landscape/client4.jpg")}
-  #client5 {background-image: url("../images/landscape/client5.jpg")}
-  #client6 {background-image: url("../images/landscape/client6.jpg")}
-  #client7 {background-image: url("../images/landscape/client7.jpg")}
-  #client8 {background-image: url("../images/landscape/client8.jpg")}
-  #client9 {background-image: url("../images/landscape/client9.jpg")}
-  #client10 {background-image: url("../images/landscape/client10.jpg")}
-  #client11 {background-image: url("../images/landscape/client11.jpg")}
-  #client12 {background-image: url("../images/landscape/client12.jpg")}
-  #client13 {background-image: url("../images/landscape/client13.jpg")}
-  #client14 {background-image: url("../images/landscape/client14.jpg")}
-  #client15 {background-image: url("../images/landscape/client15.jpg")}
+  #clientsBox {background-image: url("../images/landscape/clients.png")}
 
   #client0Logo {background-image: url("../images/landscape/client0Logo.png")}
   #client1Logo {background-image: url("../images/landscape/client1Logo.png")}
