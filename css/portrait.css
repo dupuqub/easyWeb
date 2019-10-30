@@ -419,7 +419,7 @@
   #blogSubtitle {
     width: 100%;
     height: calc(var(--titleHeight) / 3);
-    font-size: calc(var(--titleFontSize) / 3);
+    font-size: calc(var(--titleFontSize) / 2);
     font-family: Montserrat, Helvetica, Verdana, Geneva, sans-serif;
     color: white;
     display: flex;
@@ -468,7 +468,7 @@
     height: 80%;
     margin-top: 10px;
     color: var(--divaPink);
-    font-size: calc(var(--titleFontSize) * 0.4);
+    font-size: calc(var(--titleFontSize) / 2);
     font-weight: bold;
     display: flex;
     align-items: center;
