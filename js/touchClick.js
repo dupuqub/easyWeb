@@ -22,7 +22,7 @@ touchClick = event => {
   // HEADER MENU
 
   else if(event.target.classList.contains(`btnMenu`)) {
-    const areas = [`about`, `accordion`, `industry`, `clients`, `contact`, `newsletter`]
+    const areas = [`about`, `accordion`, `industry`, `clients`, `contact`, `blog`]
     const clicked = Number(event.target.id.substring(7))
     $([document.documentElement, document.body]).animate({
       scrollTop: $(`#${areas[clicked]}`).offset().top
